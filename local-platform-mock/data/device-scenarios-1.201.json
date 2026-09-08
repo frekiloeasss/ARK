@@ -1,0 +1,96 @@
+{
+  "format": "afk-device-scenarios-v1",
+  "client_version": "1.201.01.360409",
+  "scenarios": [
+    {
+      "name": "login-main-stability",
+      "enabled": true,
+      "modules": ["sdk_login", "login", "heartbeat"],
+      "steps": [
+        { "action": "launch", "wait_ms": 30000 },
+        { "action": "tap", "x": 112, "y": 670, "wait_ms": 500 },
+        { "action": "tap", "x": 225, "y": 730, "wait_ms": 2500 },
+        { "action": "tap", "x": 470, "y": 1065, "wait_ms": 7000 }
+      ],
+      "forbidden_log_patterns": [
+        "FATAL EXCEPTION[\\s\\S]{0,500}Process: com\\.lilithgame\\.hgame\\.gp",
+        "ANR in com.lilithgame.hgame.gp",
+        "protobuf.*required",
+        "CRC mismatch"
+      ],
+      "required_log_patterns": [
+        "push view: Main"
+      ]
+    },
+    {
+      "name": "liveops-newbie-ui",
+      "enabled": true,
+      "modules": ["daily_login"],
+      "steps": [
+        { "action": "tap", "x": 70, "y": 150, "wait_ms": 6000 }
+      ],
+      "forbidden_log_patterns": [
+        "FATAL EXCEPTION[\\s\\S]{0,500}Process: com\\.lilithgame\\.hgame\\.gp",
+        "ANR in com.lilithgame.hgame.gp",
+        "protobuf.*required",
+        "CRC mismatch"
+      ],
+      "required_log_patterns": [
+        "openModule:\\s+newbie",
+        "req_daily_login"
+      ],
+      "required_ws_modules": ["daily_login"]
+    },
+    {
+      "name": "social-friend-recommendations",
+      "enabled": true,
+      "modules": ["friend"],
+      "steps": [
+        { "action": "back", "wait_ms": 2500 },
+        { "action": "tap", "x": 650, "y": 485, "wait_ms": 5000 }
+      ],
+      "forbidden_log_patterns": [
+        "FATAL EXCEPTION[\\s\\S]{0,500}Process: com\\.lilithgame\\.hgame\\.gp",
+        "ANR in com.lilithgame.hgame.gp",
+        "protobuf.*required",
+        "CRC mismatch"
+      ],
+      "required_log_patterns": [
+        "openModule:\\s+friend",
+        "req_friend"
+      ],
+      "required_ws_modules": ["friend"]
+    },
+    {
+      "name": "authoritative-battle-settlement",
+      "enabled": true,
+      "modules": ["stage", "assist_stage"],
+      "steps": [
+        { "action": "back", "wait_ms": 2500 },
+        { "action": "tap", "x": 360, "y": 1045, "wait_ms": 7000 },
+        { "action": "tap", "x": 360, "y": 1080, "wait_ms": 7000 },
+        { "action": "tap", "x": 360, "y": 1045, "wait_ms": 7000 },
+        { "action": "tap", "x": 85, "y": 840, "wait_ms": 300 },
+        { "action": "tap", "x": 220, "y": 840, "wait_ms": 300 },
+        { "action": "tap", "x": 350, "y": 840, "wait_ms": 300 },
+        { "action": "tap", "x": 480, "y": 840, "wait_ms": 300 },
+        { "action": "tap", "x": 620, "y": 840, "wait_ms": 2000 },
+        { "action": "tap", "x": 360, "y": 1220, "wait_ms": 6000 },
+        { "action": "tap", "x": 660, "y": 980, "wait_ms": 300 },
+        { "action": "tap", "x": 585, "y": 980, "wait_ms": 45000 }
+      ],
+      "forbidden_log_patterns": [
+        "FATAL EXCEPTION[\\s\\S]{0,500}Process: com\\.lilithgame\\.hgame\\.gp",
+        "ANR in com.lilithgame.hgame.gp",
+        "protobuf.*required",
+        "CRC mismatch"
+      ],
+      "required_log_patterns": [
+        "openModule:\\s+battle",
+        "battle end",
+        "req_stage"
+      ],
+      "required_ws_request_kinds": ["stage_battle_start", "stage_battle_result"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "afk-local-platform-mock",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local mock/proxy service for AFK Dragon platform startup and login preflight.",
+  "scripts": {
+    "start": "node server.js",
+    "db:migrate": "node db/migrate.js",
+    "db:set-diamond": "node scripts/set-diamond.js",
+    "account:graduate": "node scripts/prepare-graduated-account.js afk_test03",
+    "deploy": "powershell -NoProfile -ExecutionPolicy Bypass -File deploy-private-server.ps1",
+    "deploy:latest": "powershell -NoProfile -ExecutionPolicy Bypass -File deploy-private-server.ps1 -ClientTrack 1.201",
+    "backup": "powershell -NoProfile -ExecutionPolicy Bypass -File backup-private-server.ps1",
+    "verify:production": "node scripts/production-readiness.js",
+    "coverage:device-protocol": "node scripts/build-protocol-coverage.js --proto runtime/official-updates/1.201.01/device-proto/up.proto --config-root runtime/official-updates/1.201.01/decrypted-config/en --output runtime/official-updates/1.201.01/protocol/device-protocol-coverage.json --doc-output runtime/official-updates/1.201.01/protocol/device-protocol-coverage.md --client-version 1.201.01.360409",
+    "coverage:device": "node scripts/build-device-coverage.js",
+    "test:device": "node scripts/device-regression-runner.js --allow-primary",
+    "test": "npm run test:syntax && npm run test:unit && npm run test:integration",
+    "test:syntax": "node --check server.js && node --check lib/platform-currency-monitor.js && node --check lib/official-game-service.js && node --check lib/gameplay-service.js && node --check lib/game-systems-service.js && node --check lib/authoritative-battle-service.js && node --check lib/bot-ecosystem-service.js && node --check lib/social-service.js && node --check lib/account-admin-service.js && node --check lib/liveops-service.js && node --check lib/official-config-catalog.js && node --check lib/protocol-domain-engine.js && node --check lib/universal-system-service.js && node --check lib/sandbox-payment-service.js && node --check scripts/extract-charge-goods.js && node --check scripts/integration-smoke.js && node --check scripts/resource-cache-server.js && node --check scripts/ops-supervisor.js && node --check scripts/production-readiness.js && node --check scripts/build-protocol-coverage.js && node --check scripts/build-device-coverage.js && node --check scripts/device-regression-runner.js && node --check scripts/build-protocol-route-map.js && node --check scripts/build-protobuf-schema.js && node --check scripts/build-resource-manifest.js && node scripts/run-python.js scripts/python-syntax-check.py afk_official_rules.py afk_protocol.py websocket_proxy.py im_websocket_server.py extract_ws_replay_fixture.py validate_structured_interaction.py scripts/launch-afk-bypass.py scripts/inspect-afk-sdk.py scripts/afk-instant-pay-bridge.py scripts/simulate-afk-instant-pay.py scripts/inspect-official-xapk.py scripts/patch-runtime-string.py scripts/python-syntax-check.py",
+    "test:unit": "npm run test:unit:js && npm run test:unit:python",
+    "test:unit:js": "node --test tests/*.test.js",
+    "test:unit:python": "node scripts/run-python.js -m unittest discover -s tests -v",
+    "test:integration": "node scripts/integration-smoke.js",
+    "test:mysql": "node scripts/mysql-integration-smoke.js",
+    "validate:ws": "node scripts/run-python.js validate_structured_interaction.py",
+    "analyze:ws": "node scripts/run-python.js scripts/analyze-ws-logs.py"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.5"
+  }
+}

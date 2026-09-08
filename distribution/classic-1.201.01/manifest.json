@@ -1,0 +1,52 @@
+{
+  "format": "afk-classic-resource-bundle-v1",
+  "client_version": "1.201.01",
+  "extract_to": "local-platform-mock/runtime/resource-cache-1.201",
+  "archives": [
+    {
+      "file": "classic-res-fcaz-lz.tar",
+      "bytes": 560990720,
+      "sha256": "9bbc162afa3e0a80392b18e17919e2ceee5a70a10b304d16a0feb2e4184fdbea"
+    },
+    {
+      "file": "classic-res-fcaz.tar",
+      "bytes": 380147200,
+      "sha256": "2c555418889ce0797141b31ba850d9c9ffd5fae32d647a28b7cf5db9430c2b29"
+    },
+    {
+      "file": "classic-res-misc.tar",
+      "bytes": 40437248,
+      "sha256": "7b8c494c824d84ac267e4bac2040b996da93590f22296def72b4a88d9405c94c"
+    },
+    {
+      "file": "classic-res-sound.tar",
+      "bytes": 791463936,
+      "sha256": "b80bec57af645f0770dd2a768856c3b3f24f6ef8228e4d23defefac361901dda"
+    },
+    {
+      "file": "classic-res-ui-misc.tar",
+      "bytes": 235790336,
+      "sha256": "b1e839b270b9e0a09bb77493d83a46c78099520a8c307d3341da8bfea1c39411"
+    },
+    {
+      "file": "classic-res-ui-panel-rest.tar",
+      "bytes": 1445704704,
+      "sha256": "8d26c9e7f4a91d82bdf737b871c19711773217b1f6d6aaf3ecb78a50258da7ea"
+    },
+    {
+      "file": "classic-res-ui-panel-share.tar",
+      "bytes": 623565312,
+      "sha256": "15312467f41c4661a77958363f949254756096a37b9fbe37a89d394af647c137"
+    },
+    {
+      "file": "classic-res-ui-plist.tar",
+      "bytes": 585284096,
+      "sha256": "55db6ae0cf54bfb9a7812a0989c4f5d62070d3068695ce8a3f805e97d3dda130"
+    },
+    {
+      "file": "classic-runtime-index.tar",
+      "bytes": 58376192,
+      "sha256": "c8b77a50d2568e39fc626379f853fd94394a6b61dceb319a91c9639bc1dd808d"
+    }
+  ]
+}

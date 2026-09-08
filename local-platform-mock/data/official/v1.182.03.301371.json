@@ -1,0 +1,81 @@
+{
+  "client_version": "1.182.03.301371",
+  "capture_date": "2026-06-23",
+  "package": "cyou.sharesrc.afk.release146",
+  "tavern": {
+    "open_panel": {
+      "pools": [1, 6, 7, 5],
+      "daily_pools": [5],
+      "daily_pool_times": { "1": 1, "5": 0, "6": 0, "7": 0 },
+      "next_race_pool": 5,
+      "amazing_point": 1,
+      "npc_ids": [1, 2]
+    },
+    "single_draw": {
+      "tavern_id": 1,
+      "cost": { "type": "item", "id": 13, "amount": 1 },
+      "reward_hero": {
+        "id": 1005,
+        "tid": 17,
+        "quality": 1,
+        "rank": 1,
+        "level": 1,
+        "gs": 797,
+        "artifact_lv": 0,
+        "locked": false,
+        "pentagram_lv": 0,
+        "cross_key_used": false
+      },
+      "likability": 2,
+      "amazing_point": 2,
+      "todo_updates": {
+        "daily": [{ "id": 6, "target_progress": 2 }],
+        "weekly": [{ "id": 105, "target_progress": 2 }]
+      }
+    }
+  },
+  "hero_upgrade": {
+    "observed_case": {
+      "hero_id": 1,
+      "tid": 22,
+      "from_level": 10,
+      "to_level": 11,
+      "quality": 1,
+      "rank": 2,
+      "gs": 1110,
+      "cost": [
+        { "type": "item", "id": 1, "amount": 10 },
+        { "type": "currency", "id": "gold", "amount": 1116 },
+        { "type": "currency", "id": "hero_exp", "amount": 417 }
+      ],
+      "todo_updates": {
+        "daily": [{ "id": 4, "target_progress": 30 }],
+        "line": [{ "line": 18, "id": 1, "target_progress": 1, "triggered": false }]
+      }
+    }
+  },
+  "tasks": {
+    "observed_batch_claim": {
+      "ids": [1, 4, 5, 6],
+      "response_id": 0
+    }
+  },
+  "stage_battle": {
+    "observed_stage": {
+      "stage_id": 13,
+      "team_id": 1,
+      "hero_ids": [1001, 1, 1003, 1002],
+      "is_real_battle": true,
+      "is_auto_battle": false,
+      "observed_result": "defeat",
+      "cur_stage_after": 13
+    }
+  },
+  "evidence": {
+    "summary": "artifacts/afkdragon/analysis/deeper_business_interfaces_2026-06-23.md",
+    "tavern_draw": "artifacts/afkdragon/captures/tavern_summon1_hit/filtered.txt",
+    "hero_upgrade": "artifacts/afkdragon/captures/hero_upgrade_confirm/filtered.txt",
+    "task_claim": "artifacts/afkdragon/captures/task_claim/filtered.txt",
+    "stage_battle": "artifacts/afkdragon/captures/battle_start/filtered.txt"
+  }
+}
