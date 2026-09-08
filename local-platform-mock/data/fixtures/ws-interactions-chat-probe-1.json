@@ -1,0 +1,187 @@
+{
+  "format_version": 3,
+  "fixture_type": "interaction_rules",
+  "source_log": "D:\\Project\\AFK\\artifacts\\afkdragon\\runtime\\chat_probe_after_login\\ws-frames_after_chat.jsonl",
+  "session_id": 1,
+  "unmatched_policy": "log",
+  "rules": [
+    {
+      "index": 1,
+      "label": "rule_1_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_1_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "upstream_to_client",
+          "capture_gap_ms": 453,
+          "delay_ms": 453,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782223419,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782223419
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    }
+  ],
+  "post_replay": {
+    "mode": "auto_heartbeat"
+  },
+  "stats": {
+    "frame_count": 47,
+    "rule_count": 1,
+    "skipped_request_count": 22
+  }
+}

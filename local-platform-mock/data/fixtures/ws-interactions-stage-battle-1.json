@@ -1,0 +1,4456 @@
+{
+  "format_version": 3,
+  "fixture_type": "interaction_rules",
+  "source_log": "D:\\Project\\AFK\\local-platform-mock\\logs\\ws-frames.jsonl",
+  "session_id": 1,
+  "unmatched_policy": "log",
+  "rules": [
+    {
+      "index": 1,
+      "label": "rule_1_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBlMWNiYjg3ZWVkMGY0YjY0YmQ2YTY5NDc4MDJlZWMxZQ==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "3968f29e824a8e9d2fd0b64728019ae835d18f77"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_1_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CIOA8NEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 454,
+          "delay_ms": 454,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CIOA8NEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782317059,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782317059
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "rule_2_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_2_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CNOE+tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 454,
+          "delay_ms": 454,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CNOE+tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782481491,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782481491
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "rule_3_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_3_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 469,
+          "delay_ms": 469,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782223419,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782223419
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "rule_4_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_4_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CKj9/dEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 475,
+          "delay_ms": 475,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CKj9/dEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782546088,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782546088
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "rule_5_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_5_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 474,
+          "delay_ms": 474,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782223419,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782223419
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "rule_6_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_6_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CNH//dEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 469,
+          "delay_ms": 469,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CNH//dEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782546385,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782546385
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "label": "rule_7_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_7_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 462,
+          "delay_ms": 462,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782223419,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782223419
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "label": "rule_8_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_8_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CKuC/tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 475,
+          "delay_ms": 475,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CKuC/tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782546731,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782546731
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "label": "rule_9_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_9_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 464,
+          "delay_ms": 464,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782223419,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782223419
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "label": "rule_10_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_10_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CNaF/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjWhf7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE541oX+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeNaF/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjWhf7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541oX+0QaAAQCQARGwAegHuAHoB0oA",
+          "size": 345,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 464,
+          "delay_ms": 464,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 345,
+            "base64": "CNaF/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjWhf7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE541oX+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeNaF/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjWhf7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541oX+0QaAAQCQARGwAegHuAHoB0oA",
+            "server_time": 1782547158,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782547158
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332,
+                "sha1": "e98cb94f4c3ff5119803225f6de35404f1f3f4ba"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "label": "rule_11_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_11_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 469,
+          "delay_ms": 469,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CLuk6tEGEGgy8QQy7gQaOwimvQEQARoJ5paw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjmxIq+BoABAJABGrAB6Ae4AegHGjsIrr0BEAEaCeaWsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54oqyGvgaAAQCQARiwAegHuAHoBxo7CLm9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKeUjL4GgAEAkAESsAHoB7gB6AcaRwjFvQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjPrYa+BoABAJABIbAB6Ae4AegH0AEAGjsIzr0BEAEaCeaWsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE541sC8wAaAAQCQARGwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CLW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBaJBOcJBOeKi9h74GgAEAkAEhsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHSgA=",
+            "server_time": 1782223419,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782223419
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "cb466b40f94c08d5103f3e26ba524845d3ff5274"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "label": "rule_12_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_12_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CKWG/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnilhv7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKWG/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnilhv7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARGwAegHuAHoB0oA",
+          "size": 345,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 462,
+          "delay_ms": 462,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 345,
+            "base64": "CKWG/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnilhv7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKWG/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnilhv7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARGwAegHuAHoB0oA",
+            "server_time": 1782547237,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782547237
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332,
+                "sha1": "a15697ae3ffaafd5afb5c76cbd9cd5ec66acdd46"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "label": "rule_13_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_13_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CKWG/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnilhv7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKWG/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnilhv7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARGwAegHuAHoB0oA",
+          "size": 345,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 476,
+          "delay_ms": 476,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 345,
+            "base64": "CKWG/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnilhv7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKWG/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnilhv7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54pYb+0QaAAQCQARGwAegHuAHoB0oA",
+            "server_time": 1782547237,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782547237
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332,
+                "sha1": "a15697ae3ffaafd5afb5c76cbd9cd5ec66acdd46"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "label": "rule_14_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_14_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CKOH/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnijh/7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKOH/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnijh/7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARGwAegHuAHoB0oA",
+          "size": 345,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 476,
+          "delay_ms": 476,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 345,
+            "base64": "CKOH/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnijh/7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKOH/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnijh/7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARGwAegHuAHoB0oA",
+            "server_time": 1782547363,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782547363
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332,
+                "sha1": "228f3858544026354305e8a92123e0994877383e"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "label": "rule_15_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_15_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CKOH/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnijh/7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKOH/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnijh/7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARGwAegHuAHoB0oA",
+          "size": 345,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 475,
+          "delay_ms": 475,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 345,
+            "base64": "CKOH/tEGEGgyzAIyyQIaPgimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnijh/7RBoABAJABGrAB6Ae4AegHGj4Irr0BEAEaDOacrOWcsOeOqeWutiAJMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARiwAegHuAHoBxo+CLm9ARABGgzmnKzlnLDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeKOH/tEGgAEAkAESsAHoB7gB6AcaRwjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnijh/7RBoABAJABIbAB6Ae4AegHGj4Izr0BEAEaDOacrOWcsOeOqeWutiARMgphdmF0YXI6MTAyOAFokE5wkE54o4f+0QaAAQCQARGwAegHuAHoB0oA",
+            "server_time": 1782547363,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782547363
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 332,
+                "sha1": "228f3858544026354305e8a92123e0994877383e"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "label": "rule_16_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_16_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CMGx/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjBsf7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54wbH+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjBsf7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAERsAEeuAEeSgA=",
+          "size": 335,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 488,
+          "delay_ms": 488,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 335,
+            "base64": "CMGx/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjBsf7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54wbH+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjBsf7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAERsAEeuAEeSgA=",
+            "server_time": 1782552769,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782552769
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322,
+                "sha1": "6dc92961a36563c34b0bf414d0f5a5aa8c317d51"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "label": "rule_17_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_17_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CMGx/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjBsf7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54wbH+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjBsf7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAERsAEeuAEeSgA=",
+          "size": 335,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 489,
+          "delay_ms": 489,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 335,
+            "base64": "CMGx/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjBsf7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54wbH+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjBsf7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMGx/tEGgAEAkAERsAEeuAEeSgA=",
+            "server_time": 1782552769,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782552769
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322,
+                "sha1": "6dc92961a36563c34b0bf414d0f5a5aa8c317d51"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "label": "rule_18_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_18_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CMez/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjHs/7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54x7P+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjHs/7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAERsAEeuAEeSgA=",
+          "size": 335,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 487,
+          "delay_ms": 487,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 335,
+            "base64": "CMez/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjHs/7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54x7P+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjHs/7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAERsAEeuAEeSgA=",
+            "server_time": 1782553031,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782553031
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322,
+                "sha1": "f8ca8b422dc7d69f08f0d8ee86dedde0b9d9559a"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "label": "rule_19_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_19_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CMez/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjHs/7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54x7P+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjHs/7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAERsAEeuAEeSgA=",
+          "size": 335,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 478,
+          "delay_ms": 478,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 335,
+            "base64": "CMez/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTnjHs/7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54x7P+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTnjHs/7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeMez/tEGgAEAkAERsAEeuAEeSgA=",
+            "server_time": 1782553031,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782553031
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322,
+                "sha1": "f8ca8b422dc7d69f08f0d8ee86dedde0b9d9559a"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "label": "rule_20_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_20_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CIi6/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTniIuv7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeIi6/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54iLr+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTniIuv7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeIi6/tEGgAEAkAERsAEeuAEeSgA=",
+          "size": 335,
+          "captured_direction": "local_structured_to_client",
+          "capture_gap_ms": 476,
+          "delay_ms": 476,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 335,
+            "base64": "CIi6/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTniIuv7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeIi6/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54iLr+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTniIuv7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeIi6/tEGgAEAkAERsAEeuAEeSgA=",
+            "server_time": 1782553864,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782553864
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322,
+                "sha1": "82515b1bb22cefea8b7b351e549e40dcf1765ee1"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "label": "rule_21_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyBjNDBkYjdiNWVjNDY0NTEzMDA4Y2FhOWJlZjA5NWE4Mg==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "874e66852c00bac48bc2d212261035747b1891ce"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_21_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CIm6/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTniJuv7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeIm6/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54ibr+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTniJuv7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeIm6/tEGgAEAkAERsAEeuAEeSgA=",
+          "size": 335,
+          "captured_direction": "local_interaction_to_client",
+          "capture_gap_ms": 471,
+          "delay_ms": 471,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 335,
+            "base64": "CIm6/tEGEGgywgIyvwIaPAimvQEQARoM5pys5Zyw546p5a62IAwyCmF2YXRhcjoxMDI4AWiQTnCQTniJuv7RBoABAJABGrABHrgBHho8CK69ARABGgzmnKzlnLDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeIm6/tEGgAEAkAEYsAEeuAEeGjwIub0BEAEaDOacrOWcsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54ibr+0QaAAQCQARKwAR64AR4aRQjFvQEQARoM5pys5Zyw546p5a62IAoyCmF2YXRhcjoxMDI4AVAMWgPluJ1gA2iQTnCQTniJuv7RBoABAJABIbABHrgBHho8CM69ARABGgzmnKzlnLDnjqnlrrYgETIKYXZhdGFyOjEwMjgBaJBOcJBOeIm6/tEGgAEAkAERsAEeuAEeSgA=",
+            "server_time": 1782553865,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782553865
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 322,
+                "sha1": "1c13717b5fb63b7020458ecaad9e0bf0be72501d"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "label": "rule_22_stage_query_assist_summaries",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_query_assist_summaries",
+        "size": 43,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 43,
+        "base64": "CGgQACoCMgDKAyA2YzU5NDA2NzA1MTM2MDI3YTNkY2FlY2E1MTc3NTBhOA==",
+        "kind": "stage_query_assist_summaries",
+        "seq": 104,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 104
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 2,
+            "sha1": "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "06714c5523d6924a5d92fc17c3069cab39123e28"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          2
+        ],
+        "route_payload_sha1": [
+          "21ed4c7af50d987589a9029fc0422151be3a0fc2"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 6,
+              "wire_type": 2,
+              "size": 0
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_22_stage_query_assist_summaries_response_1",
+          "message_type": "binary",
+          "payload": "CMzD/tEGEGgy8QQy7gQaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHGjsIpr0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE545sSKvgaAAQCQARqwAegHuAHoBxo7CK69ARABGgnmlrDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeKKshr4GgAEAkAEYsAHoB7gB6AcaOwi1vQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AWiQTnCQTniovYe+BoABAJABIbAB6Ae4AegHGjsIub0BEAEaCeaWsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54p5SMvgaAAQCQARKwAegHuAHoBxpHCMW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBUAxaA+W4nWADaJBOcJBOeM+thr4GgAEAkAEhsAHoB7gB6AfQAQAaOwjOvQEQARoJ5paw546p5a62IBEyCmF2YXRhcjoxMDI4AWiQTnCQTnjWwLzABoABAJABEbAB6Ae4AegHSgA=",
+          "size": 638,
+          "captured_direction": "upstream_to_client",
+          "capture_gap_ms": 481,
+          "delay_ms": 481,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 638,
+            "base64": "CMzD/tEGEGgy8QQy7gQaOwidvQEQARoJ5paw546p5a62IAcyCmF2YXRhcjoxMDI4AWiQTnCQTniioIe+BoABAJABEbAB6Ae4AegHGjsIob0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE54ysuIvgaAAQCQARmwAegHuAHoBxo7CNG9ARABGgnmlrDnjqnlrrYgCDIKYXZhdGFyOjEwMjgBaJBOcJBOeJH/hr4GgAEAkAEVsAHoB7gB6AcaOwiNvQEQARoJ5paw546p5a62IAkyCmF2YXRhcjoxMDI4AWiQTnCQTnjpq4a+BoABAJABG7AB6Ae4AegHGjsIpr0BEAEaCeaWsOeOqeWutiAMMgphdmF0YXI6MTAyOAFokE5wkE545sSKvgaAAQCQARqwAegHuAHoBxo7CK69ARABGgnmlrDnjqnlrrYgCTIKYXZhdGFyOjEwMjgBaJBOcJBOeKKshr4GgAEAkAEYsAHoB7gB6AcaOwi1vQEQARoJ5paw546p5a62IAoyCmF2YXRhcjoxMDI4AWiQTnCQTniovYe+BoABAJABIbAB6Ae4AegHGjsIub0BEAEaCeaWsOeOqeWutiAIMgphdmF0YXI6MTAyOAFokE5wkE54p5SMvgaAAQCQARKwAegHuAHoBxpHCMW9ARABGgnmlrDnjqnlrrYgCjIKYXZhdGFyOjEwMjgBUAxaA+W4nWADaJBOcJBOeM+thr4GgAEAkAEhsAHoB7gB6AfQAQAaOwjOvQEQARoJ5paw546p5a62IBEyCmF2YXRhcjoxMDI4AWiQTnCQTnjWwLzABoABAJABEbAB6Ae4AegHSgA=",
+            "server_time": 1782555084,
+            "seq": 104,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782555084
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 104
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 625,
+                "sha1": "e266a83dd456d893f704ed0c9c8a579bd3a6ab3a"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 0,
+                "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+              }
+            ]
+          },
+          "business_generator": "stage_assist_summaries",
+          "business_label": "db_stage_assist_summaries",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "label": "rule_23_stage_battle_start",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_battle_start",
+        "size": 83,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 41
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          41
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 3,
+              "wire_type": 2,
+              "size": 39
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 83,
+        "base64": "CNEEEAAqKRonCA0aHQgBEgUIARDpBxIECAIQARIFCAMQ6wcSBQgEEOoHIAEoATAAygMgYmUzY2Y3YzljOWIwNWJhZDRmNDg1ZDJlMjViNTVkNTM=",
+        "kind": "stage_battle_start",
+        "seq": 593,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 41
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 593
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 41,
+            "sha1": "db16d851dfa00e7c2da5fcf6ce342bd47859e4fa"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "8d87a4dfbac8ee97b942e974a0ccebc5ecbc5b43"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          41
+        ],
+        "route_payload_sha1": [
+          "db16d851dfa00e7c2da5fcf6ce342bd47859e4fa"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 3,
+              "wire_type": 2,
+              "size": 39
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_23_stage_battle_start_response_1",
+          "message_type": "binary",
+          "payload": "COrp/tEGENEEMtMBGtABCs0BCAESCgjj5frXAxANYAAavAEKswEKGwgBEhcI6QcQARgCIAIoFDDpC0AASABgAJgBAAoaCAISFggBEBYYASACKAsw1ghAAEgAYACYAQAKWwgDElcI6wcQAhgCIAEoCjC/CzoOCAESCggBEAIYASgAMAA6DggCEgoIAhAFGAEoADAAOg4IAxIKCAcQCBgBKAAwADoOCAQSCggMEAsYASgAMABAAEgAYACYAQAKGwgEEhcI6gcQDRgCIAEoCDCbCEAASABgAJgBACDq6f7RBkoQEgYIARABGAAaBghzEBEYAA==",
+          "size": 241,
+          "captured_direction": "upstream_to_client",
+          "capture_gap_ms": 1084,
+          "delay_ms": 1084,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 241,
+            "base64": "COrp/tEGENEEMtMBGtABCs0BCAESCgjj5frXAxANYAAavAEKswEKGwgBEhcI6QcQARgCIAIoFDDpC0AASABgAJgBAAoaCAISFggBEBYYASACKAsw1ghAAEgAYACYAQAKWwgDElcI6wcQAhgCIAEoCjC/CzoOCAESCggBEAIYASgAMAA6DggCEgoIAhAFGAEoADAAOg4IAxIKCAcQCBgBKAAwADoOCAQSCggMEAsYASgAMABAAEgAYACYAQAKGwgEEhcI6gcQDRgCIAEoCDCbCEAASABgAJgBACDq6f7RBkoQEgYIARABGAAaBghzEBEYAA==",
+            "server_time": 1782559978,
+            "seq": 593,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 211
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 16
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782559978
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 593
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 211,
+                "sha1": "2ba7b6be15744e810023a91f7e24141359edcdd1"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 16,
+                "sha1": "f7c6015cd022465ce11a6397e3b9ea0e1e0c813e"
+              }
+            ]
+          },
+          "business_generator": "stage_battle_start",
+          "business_label": "db_stage_battle_start",
+          "business_tables": [
+            "players",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "label": "rule_24_stage_battle_result",
+      "match": {
+        "message_type": "binary",
+        "kind": "stage_battle_result",
+        "size": 166,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 124
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          124
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 4,
+              "wire_type": 2,
+              "size": 122
+            }
+          ]
+        ]
+      },
+      "request": {
+        "message_type": "binary",
+        "size": 166,
+        "base64": "CNMEEAAqfCJ6CAISBggBEAIqABpRYXBwOjEuMTQ1LjAxOmNsaTphZmthcmVuYV92MS4xODIuMDMuMzAxMzcxOnBmVmVyOjE0MjAwOnNlZWQ6OTg5NzcwNDY3OmxvZ2J0OmZhbHNlILAfKAEovg4oAijWDSgDKKQCKAQoeSgFKAA43zDKAyA3OGEyNDg5MGI4ZTIzMGZkMDM3Y2UzZTAzMGQ5YmE2OA==",
+        "kind": "stage_battle_result",
+        "seq": 595,
+        "top_fields": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "size": null
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 124
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32
+          }
+        ],
+        "proto_fingerprint": [
+          {
+            "number": 1,
+            "wire_type": 0,
+            "varint": 595
+          },
+          {
+            "number": 2,
+            "wire_type": 0,
+            "varint": 0
+          },
+          {
+            "number": 5,
+            "wire_type": 2,
+            "size": 124,
+            "sha1": "14009b6074895f339932184d402c9e75c0640fec"
+          },
+          {
+            "number": 57,
+            "wire_type": 2,
+            "size": 32,
+            "sha1": "44f63858ab3cbaafd76544c7d148aa73fb6943be"
+          }
+        ],
+        "route_field": 5,
+        "route_payload_sizes": [
+          124
+        ],
+        "route_payload_sha1": [
+          "14009b6074895f339932184d402c9e75c0640fec"
+        ],
+        "route_payload_shapes": [
+          [
+            {
+              "number": 4,
+              "wire_type": 2,
+              "size": 122
+            }
+          ]
+        ]
+      },
+      "responses": [
+        {
+          "label": "rule_24_stage_battle_result_response_1",
+          "message_type": "binary",
+          "payload": "CPLp/tEGENMEMpkDIpYDCAIaigMIDRLlAgjy6f7RBhAMEAwQDBDGBRCnBRC05wQQtOcEELTnBBC05wQQtOcEGPLp/tEGIgsIARCBreIEGIKaLSILCAEQhK3iBBi21wwiCwgBEIat4gQYhuwJIgcIAhABGNgEIgYIAxAFGAoiBggDEAYYCiIGCAMQARgqIgYIAxACGAoiBggDEAwYCiIGCAMQCxgKIgYIAxAKGAoiBggDEAcYCiIGCAMQBBgKIgYIAxADGAoiBggDEAkYCiIGCAMQCBgKKOfJ6NEGOqABCgsIARCBreIEGIKaLQoLCAEQhK3iBBi21wwKCwgBEIat4gQYhuwJCgcIAhABGNgECgYIAxAFGAoKBggDEAYYCgoGCAMQARgqCgYIAxACGAoKBggDEAwYCgoGCAMQCxgKCgYIAxAKGAoKBggDEAcYCgoGCAMQBBgKCgYIAxADGAoKBggDEAkYCgoGCAMQCBgKEg4IBRDKARmg+2+ajfevPxoICA0QABgAIAAiCAgNEAAYACAAKAE4AEAASABQAFgLOMjPsau8AUpRIggIMRABGAEgACIICC4QARgBIAAiCAgREAEYASAAIgkI7wcQARgNIAAiCAg6EAEYDCAAIggIARABGAwgACIICDkQARgMIAAiCAgvEAEYDCAA",
+          "size": 504,
+          "captured_direction": "upstream_to_client",
+          "capture_gap_ms": 443,
+          "delay_ms": 443,
+          "response_signature": {
+            "message_type": "binary",
+            "size": 504,
+            "base64": "CPLp/tEGENMEMpkDIpYDCAIaigMIDRLlAgjy6f7RBhAMEAwQDBDGBRCnBRC05wQQtOcEELTnBBC05wQQtOcEGPLp/tEGIgsIARCBreIEGIKaLSILCAEQhK3iBBi21wwiCwgBEIat4gQYhuwJIgcIAhABGNgEIgYIAxAFGAoiBggDEAYYCiIGCAMQARgqIgYIAxACGAoiBggDEAwYCiIGCAMQCxgKIgYIAxAKGAoiBggDEAcYCiIGCAMQBBgKIgYIAxADGAoiBggDEAkYCiIGCAMQCBgKKOfJ6NEGOqABCgsIARCBreIEGIKaLQoLCAEQhK3iBBi21wwKCwgBEIat4gQYhuwJCgcIAhABGNgECgYIAxAFGAoKBggDEAYYCgoGCAMQARgqCgYIAxACGAoKBggDEAwYCgoGCAMQCxgKCgYIAxAKGAoKBggDEAcYCgoGCAMQBBgKCgYIAxADGAoKBggDEAkYCgoGCAMQCBgKEg4IBRDKARmg+2+ajfevPxoICA0QABgAIAAiCAgNEAAYACAAKAE4AEAASABQAFgLOMjPsau8AUpRIggIMRABGAEgACIICC4QARgBIAAiCAgREAEYASAAIgkI7wcQARgNIAAiCAg6EAEYDCAAIggIARABGAwgACIICDkQARgMIAAiCAgvEAEYDCAA",
+            "server_time": 1782559986,
+            "seq": 595,
+            "top_fields": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "size": null
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 409
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 81
+              }
+            ],
+            "proto_fingerprint": [
+              {
+                "number": 1,
+                "wire_type": 0,
+                "varint": 1782559986
+              },
+              {
+                "number": 2,
+                "wire_type": 0,
+                "varint": 595
+              },
+              {
+                "number": 6,
+                "wire_type": 2,
+                "size": 409,
+                "sha1": "788bdc710c8100d0ef130fab62118935e1a17136"
+              },
+              {
+                "number": 9,
+                "wire_type": 2,
+                "size": 81,
+                "sha1": "9303178af062d5b79c85d2e7d243aebb4123ef9c"
+              }
+            ]
+          },
+          "business_generator": "stage_battle_result",
+          "business_label": "db_stage_battle_result",
+          "business_tables": [
+            "players",
+            "inventory_items",
+            "characters",
+            "stage_progress"
+          ]
+        }
+      ]
+    }
+  ],
+  "post_replay": {
+    "mode": "auto_heartbeat"
+  },
+  "stats": {
+    "frame_count": 2027,
+    "rule_count": 24,
+    "skipped_request_count": 984
+  }
+}

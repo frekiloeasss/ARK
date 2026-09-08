@@ -1,0 +1,3131 @@
+{
+  "schema_version": 2,
+  "client_version": "1.182.03.301371",
+  "levels": {
+    "1": {
+      "gold": 23,
+      "hero_exp": 89,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 1,
+      "stat_delta": {
+        "hp": 45,
+        "atk": 3.8,
+        "arm": 0.8,
+        "mr": 0.8
+      }
+    },
+    "2": {
+      "gold": 72,
+      "hero_exp": 133,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 2,
+      "stat_delta": {
+        "hp": 90.8,
+        "atk": 7.6,
+        "arm": 1.5,
+        "mr": 1.5
+      }
+    },
+    "3": {
+      "gold": 134,
+      "hero_exp": 170,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 3,
+      "stat_delta": {
+        "hp": 137.3,
+        "atk": 11.4,
+        "arm": 2.3,
+        "mr": 2.3
+      }
+    },
+    "4": {
+      "gold": 222,
+      "hero_exp": 204,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 4,
+      "stat_delta": {
+        "hp": 184.6,
+        "atk": 15.4,
+        "arm": 3.1,
+        "mr": 3.1
+      }
+    },
+    "5": {
+      "gold": 314,
+      "hero_exp": 239,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 5,
+      "stat_delta": {
+        "hp": 232.8,
+        "atk": 19.4,
+        "arm": 3.9,
+        "mr": 3.9
+      }
+    },
+    "6": {
+      "gold": 444,
+      "hero_exp": 273,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 6,
+      "stat_delta": {
+        "hp": 281.7,
+        "atk": 23.5,
+        "arm": 4.7,
+        "mr": 4.7
+      }
+    },
+    "7": {
+      "gold": 600,
+      "hero_exp": 307,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 7,
+      "stat_delta": {
+        "hp": 331.5,
+        "atk": 27.6,
+        "arm": 5.5,
+        "mr": 5.5
+      }
+    },
+    "8": {
+      "gold": 740,
+      "hero_exp": 343,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 8,
+      "stat_delta": {
+        "hp": 382.2,
+        "atk": 31.8,
+        "arm": 6.4,
+        "mr": 6.4
+      }
+    },
+    "9": {
+      "gold": 892,
+      "hero_exp": 380,
+      "essence": 0,
+      "rank": 1,
+      "display_level": 9,
+      "stat_delta": {
+        "hp": 433.7,
+        "atk": 36.1,
+        "arm": 7.2,
+        "mr": 7.2
+      }
+    },
+    "10": {
+      "gold": 1116,
+      "hero_exp": 417,
+      "essence": 10,
+      "rank": 1,
+      "display_level": 10,
+      "stat_delta": {
+        "hp": 486,
+        "atk": 40.5,
+        "arm": 8.1,
+        "mr": 8.1
+      }
+    },
+    "11": {
+      "gold": 1300,
+      "hero_exp": 456,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 11,
+      "stat_delta": {
+        "hp": 539.3,
+        "atk": 44.9,
+        "arm": 9,
+        "mr": 9
+      }
+    },
+    "12": {
+      "gold": 1577,
+      "hero_exp": 497,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 12,
+      "stat_delta": {
+        "hp": 593.5,
+        "atk": 49.5,
+        "arm": 9.9,
+        "mr": 9.9
+      }
+    },
+    "13": {
+      "gold": 1793,
+      "hero_exp": 539,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 13,
+      "stat_delta": {
+        "hp": 648.6,
+        "atk": 54,
+        "arm": 10.8,
+        "mr": 10.8
+      }
+    },
+    "14": {
+      "gold": 2126,
+      "hero_exp": 583,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 14,
+      "stat_delta": {
+        "hp": 704.6,
+        "atk": 58.7,
+        "arm": 11.7,
+        "mr": 11.7
+      }
+    },
+    "15": {
+      "gold": 2377,
+      "hero_exp": 629,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 15,
+      "stat_delta": {
+        "hp": 761.6,
+        "atk": 63.5,
+        "arm": 12.7,
+        "mr": 12.7
+      }
+    },
+    "16": {
+      "gold": 2638,
+      "hero_exp": 676,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 16,
+      "stat_delta": {
+        "hp": 819.5,
+        "atk": 68.3,
+        "arm": 13.7,
+        "mr": 13.7
+      }
+    },
+    "17": {
+      "gold": 3056,
+      "hero_exp": 726,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 17,
+      "stat_delta": {
+        "hp": 878.4,
+        "atk": 73.2,
+        "arm": 14.6,
+        "mr": 14.6
+      }
+    },
+    "18": {
+      "gold": 3354,
+      "hero_exp": 778,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 18,
+      "stat_delta": {
+        "hp": 938.4,
+        "atk": 78.2,
+        "arm": 15.6,
+        "mr": 15.6
+      }
+    },
+    "19": {
+      "gold": 3837,
+      "hero_exp": 831,
+      "essence": 0,
+      "rank": 2,
+      "display_level": 19,
+      "stat_delta": {
+        "hp": 999.3,
+        "atk": 83.3,
+        "arm": 16.7,
+        "mr": 16.7
+      }
+    },
+    "20": {
+      "gold": 4172,
+      "hero_exp": 888,
+      "essence": 40,
+      "rank": 2,
+      "display_level": 20,
+      "stat_delta": {
+        "hp": 1061.3,
+        "atk": 88.4,
+        "arm": 17.7,
+        "mr": 17.7
+      }
+    },
+    "21": {
+      "gold": 4304,
+      "hero_exp": 946,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 21,
+      "stat_delta": {
+        "hp": 1124.3,
+        "atk": 93.7,
+        "arm": 18.7,
+        "mr": 18.7
+      }
+    },
+    "22": {
+      "gold": 4635,
+      "hero_exp": 1008,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 22,
+      "stat_delta": {
+        "hp": 1188.5,
+        "atk": 99,
+        "arm": 19.8,
+        "mr": 19.8
+      }
+    },
+    "23": {
+      "gold": 4769,
+      "hero_exp": 1071,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 23,
+      "stat_delta": {
+        "hp": 1253.7,
+        "atk": 104.5,
+        "arm": 20.9,
+        "mr": 20.9
+      }
+    },
+    "24": {
+      "gold": 4901,
+      "hero_exp": 1138,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 24,
+      "stat_delta": {
+        "hp": 1320,
+        "atk": 110,
+        "arm": 22,
+        "mr": 22
+      }
+    },
+    "25": {
+      "gold": 5251,
+      "hero_exp": 1208,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 25,
+      "stat_delta": {
+        "hp": 1387.4,
+        "atk": 115.6,
+        "arm": 23.1,
+        "mr": 23.1
+      }
+    },
+    "26": {
+      "gold": 5386,
+      "hero_exp": 1280,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 26,
+      "stat_delta": {
+        "hp": 1456,
+        "atk": 121.3,
+        "arm": 24.3,
+        "mr": 24.3
+      }
+    },
+    "27": {
+      "gold": 5750,
+      "hero_exp": 1356,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 27,
+      "stat_delta": {
+        "hp": 1525.8,
+        "atk": 127.1,
+        "arm": 25.4,
+        "mr": 25.4
+      }
+    },
+    "28": {
+      "gold": 5888,
+      "hero_exp": 1436,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 28,
+      "stat_delta": {
+        "hp": 1596.7,
+        "atk": 133.1,
+        "arm": 26.6,
+        "mr": 26.6
+      }
+    },
+    "29": {
+      "gold": 6025,
+      "hero_exp": 1518,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 29,
+      "stat_delta": {
+        "hp": 1668.8,
+        "atk": 139.1,
+        "arm": 27.8,
+        "mr": 27.8
+      }
+    },
+    "30": {
+      "gold": 6407,
+      "hero_exp": 1605,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 30,
+      "stat_delta": {
+        "hp": 1742.2,
+        "atk": 145.2,
+        "arm": 29,
+        "mr": 29
+      }
+    },
+    "31": {
+      "gold": 6547,
+      "hero_exp": 1695,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 31,
+      "stat_delta": {
+        "hp": 1816.8,
+        "atk": 151.4,
+        "arm": 30.3,
+        "mr": 30.3
+      }
+    },
+    "32": {
+      "gold": 6686,
+      "hero_exp": 1789,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 32,
+      "stat_delta": {
+        "hp": 1892.7,
+        "atk": 157.7,
+        "arm": 31.5,
+        "mr": 31.5
+      }
+    },
+    "33": {
+      "gold": 7087,
+      "hero_exp": 1887,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 33,
+      "stat_delta": {
+        "hp": 1969.9,
+        "atk": 164.2,
+        "arm": 32.8,
+        "mr": 32.8
+      }
+    },
+    "34": {
+      "gold": 7229,
+      "hero_exp": 1989,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 34,
+      "stat_delta": {
+        "hp": 2048.4,
+        "atk": 170.7,
+        "arm": 34.1,
+        "mr": 34.1
+      }
+    },
+    "35": {
+      "gold": 7371,
+      "hero_exp": 2096,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 35,
+      "stat_delta": {
+        "hp": 2128.2,
+        "atk": 177.4,
+        "arm": 35.5,
+        "mr": 35.5
+      }
+    },
+    "36": {
+      "gold": 7790,
+      "hero_exp": 2208,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 36,
+      "stat_delta": {
+        "hp": 2209.4,
+        "atk": 184.1,
+        "arm": 36.8,
+        "mr": 36.8
+      }
+    },
+    "37": {
+      "gold": 7935,
+      "hero_exp": 2325,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 37,
+      "stat_delta": {
+        "hp": 2291.9,
+        "atk": 191,
+        "arm": 38.2,
+        "mr": 38.2
+      }
+    },
+    "38": {
+      "gold": 8368,
+      "hero_exp": 2446,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 38,
+      "stat_delta": {
+        "hp": 2375.9,
+        "atk": 198,
+        "arm": 39.6,
+        "mr": 39.6
+      }
+    },
+    "39": {
+      "gold": 8516,
+      "hero_exp": 2573,
+      "essence": 0,
+      "rank": 3,
+      "display_level": 39,
+      "stat_delta": {
+        "hp": 2461.3,
+        "atk": 205.1,
+        "arm": 41,
+        "mr": 41
+      }
+    },
+    "40": {
+      "gold": 8665,
+      "hero_exp": 2706,
+      "essence": 100,
+      "rank": 3,
+      "display_level": 40,
+      "stat_delta": {
+        "hp": 2548.1,
+        "atk": 212.3,
+        "arm": 42.5,
+        "mr": 42.5
+      }
+    },
+    "41": {
+      "gold": 9116,
+      "hero_exp": 2845,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 41,
+      "stat_delta": {
+        "hp": 2636.5,
+        "atk": 219.7,
+        "arm": 43.9,
+        "mr": 43.9
+      }
+    },
+    "42": {
+      "gold": 9269,
+      "hero_exp": 2981,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 42,
+      "stat_delta": {
+        "hp": 2726.3,
+        "atk": 227.2,
+        "arm": 45.4,
+        "mr": 45.4
+      }
+    },
+    "43": {
+      "gold": 9421,
+      "hero_exp": 3124,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 43,
+      "stat_delta": {
+        "hp": 2817.6,
+        "atk": 234.8,
+        "arm": 47,
+        "mr": 47
+      }
+    },
+    "44": {
+      "gold": 9891,
+      "hero_exp": 3272,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 44,
+      "stat_delta": {
+        "hp": 2910.5,
+        "atk": 242.5,
+        "arm": 48.5,
+        "mr": 48.5
+      }
+    },
+    "45": {
+      "gold": 10048,
+      "hero_exp": 3426,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 45,
+      "stat_delta": {
+        "hp": 3005,
+        "atk": 250.4,
+        "arm": 50.1,
+        "mr": 50.1
+      }
+    },
+    "46": {
+      "gold": 10204,
+      "hero_exp": 3587,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 46,
+      "stat_delta": {
+        "hp": 3101.1,
+        "atk": 258.4,
+        "arm": 51.7,
+        "mr": 51.7
+      }
+    },
+    "47": {
+      "gold": 10695,
+      "hero_exp": 3754,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 47,
+      "stat_delta": {
+        "hp": 3198.8,
+        "atk": 266.6,
+        "arm": 53.3,
+        "mr": 53.3
+      }
+    },
+    "48": {
+      "gold": 10856,
+      "hero_exp": 3928,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 48,
+      "stat_delta": {
+        "hp": 3298.2,
+        "atk": 274.8,
+        "arm": 55,
+        "mr": 55
+      }
+    },
+    "49": {
+      "gold": 11018,
+      "hero_exp": 4109,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 49,
+      "stat_delta": {
+        "hp": 3399.3,
+        "atk": 283.3,
+        "arm": 56.7,
+        "mr": 56.7
+      }
+    },
+    "50": {
+      "gold": 11529,
+      "hero_exp": 4298,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 50,
+      "stat_delta": {
+        "hp": 3502,
+        "atk": 291.8,
+        "arm": 58.4,
+        "mr": 58.4
+      }
+    },
+    "51": {
+      "gold": 12339,
+      "hero_exp": 4742,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 51,
+      "stat_delta": {
+        "hp": 3606.6,
+        "atk": 300.5,
+        "arm": 60.1,
+        "mr": 60.1
+      }
+    },
+    "52": {
+      "gold": 13539,
+      "hero_exp": 5191,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 52,
+      "stat_delta": {
+        "hp": 3712.9,
+        "atk": 309.4,
+        "arm": 61.9,
+        "mr": 61.9
+      }
+    },
+    "53": {
+      "gold": 14356,
+      "hero_exp": 5658,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 53,
+      "stat_delta": {
+        "hp": 3821,
+        "atk": 318.4,
+        "arm": 63.7,
+        "mr": 63.7
+      }
+    },
+    "54": {
+      "gold": 15164,
+      "hero_exp": 6143,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 54,
+      "stat_delta": {
+        "hp": 3931,
+        "atk": 327.6,
+        "arm": 65.5,
+        "mr": 65.5
+      }
+    },
+    "55": {
+      "gold": 16432,
+      "hero_exp": 6647,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 55,
+      "stat_delta": {
+        "hp": 4042.8,
+        "atk": 336.9,
+        "arm": 67.4,
+        "mr": 67.4
+      }
+    },
+    "56": {
+      "gold": 17241,
+      "hero_exp": 7169,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 56,
+      "stat_delta": {
+        "hp": 4156.5,
+        "atk": 346.4,
+        "arm": 69.3,
+        "mr": 69.3
+      }
+    },
+    "57": {
+      "gold": 18039,
+      "hero_exp": 7710,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 57,
+      "stat_delta": {
+        "hp": 4272.2,
+        "atk": 356,
+        "arm": 71.2,
+        "mr": 71.2
+      }
+    },
+    "58": {
+      "gold": 19362,
+      "hero_exp": 8269,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 58,
+      "stat_delta": {
+        "hp": 4389.8,
+        "atk": 365.8,
+        "arm": 73.2,
+        "mr": 73.2
+      }
+    },
+    "59": {
+      "gold": 20155,
+      "hero_exp": 8848,
+      "essence": 0,
+      "rank": 4,
+      "display_level": 59,
+      "stat_delta": {
+        "hp": 4509.4,
+        "atk": 375.8,
+        "arm": 75.2,
+        "mr": 75.2
+      }
+    },
+    "60": {
+      "gold": 20934,
+      "hero_exp": 9447,
+      "essence": 250,
+      "rank": 4,
+      "display_level": 60,
+      "stat_delta": {
+        "hp": 4631.1,
+        "atk": 385.9,
+        "arm": 77.2,
+        "mr": 77.2
+      }
+    },
+    "61": {
+      "gold": 22301,
+      "hero_exp": 10000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 61,
+      "stat_delta": {
+        "hp": 4754.8,
+        "atk": 396.2,
+        "arm": 79.2,
+        "mr": 79.2
+      }
+    },
+    "62": {
+      "gold": 23070,
+      "hero_exp": 11000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 62,
+      "stat_delta": {
+        "hp": 4880.6,
+        "atk": 406.7,
+        "arm": 81.3,
+        "mr": 81.3
+      }
+    },
+    "63": {
+      "gold": 24467,
+      "hero_exp": 11000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 63,
+      "stat_delta": {
+        "hp": 5008.6,
+        "atk": 417.4,
+        "arm": 83.5,
+        "mr": 83.5
+      }
+    },
+    "64": {
+      "gold": 25222,
+      "hero_exp": 12000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 64,
+      "stat_delta": {
+        "hp": 5138.8,
+        "atk": 428.2,
+        "arm": 85.6,
+        "mr": 85.6
+      }
+    },
+    "65": {
+      "gold": 25960,
+      "hero_exp": 13000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 65,
+      "stat_delta": {
+        "hp": 5271.1,
+        "atk": 439.3,
+        "arm": 87.9,
+        "mr": 87.9
+      }
+    },
+    "66": {
+      "gold": 27382,
+      "hero_exp": 13000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 66,
+      "stat_delta": {
+        "hp": 5405.7,
+        "atk": 450.5,
+        "arm": 90.1,
+        "mr": 90.1
+      }
+    },
+    "67": {
+      "gold": 28101,
+      "hero_exp": 14000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 67,
+      "stat_delta": {
+        "hp": 5542.6,
+        "atk": 461.9,
+        "arm": 92.4,
+        "mr": 92.4
+      }
+    },
+    "68": {
+      "gold": 28802,
+      "hero_exp": 15000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 68,
+      "stat_delta": {
+        "hp": 5681.9,
+        "atk": 473.5,
+        "arm": 94.7,
+        "mr": 94.7
+      }
+    },
+    "69": {
+      "gold": 30239,
+      "hero_exp": 15000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 69,
+      "stat_delta": {
+        "hp": 5823.5,
+        "atk": 485.3,
+        "arm": 97.1,
+        "mr": 97.1
+      }
+    },
+    "70": {
+      "gold": 30917,
+      "hero_exp": 16000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 70,
+      "stat_delta": {
+        "hp": 5967.5,
+        "atk": 497.3,
+        "arm": 99.5,
+        "mr": 99.5
+      }
+    },
+    "71": {
+      "gold": 31576,
+      "hero_exp": 17000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 71,
+      "stat_delta": {
+        "hp": 6113.9,
+        "atk": 509.5,
+        "arm": 101.9,
+        "mr": 101.9
+      }
+    },
+    "72": {
+      "gold": 33019,
+      "hero_exp": 18000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 72,
+      "stat_delta": {
+        "hp": 6262.8,
+        "atk": 521.9,
+        "arm": 104.4,
+        "mr": 104.4
+      }
+    },
+    "73": {
+      "gold": 33653,
+      "hero_exp": 18000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 73,
+      "stat_delta": {
+        "hp": 6414.3,
+        "atk": 534.5,
+        "arm": 106.9,
+        "mr": 106.9
+      }
+    },
+    "74": {
+      "gold": 35102,
+      "hero_exp": 19000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 74,
+      "stat_delta": {
+        "hp": 6568.3,
+        "atk": 547.4,
+        "arm": 109.5,
+        "mr": 109.5
+      }
+    },
+    "75": {
+      "gold": 35709,
+      "hero_exp": 20000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 75,
+      "stat_delta": {
+        "hp": 6725,
+        "atk": 560.4,
+        "arm": 112.1,
+        "mr": 112.1
+      }
+    },
+    "76": {
+      "gold": 36296,
+      "hero_exp": 21000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 76,
+      "stat_delta": {
+        "hp": 6884.3,
+        "atk": 573.7,
+        "arm": 114.7,
+        "mr": 114.7
+      }
+    },
+    "77": {
+      "gold": 37739,
+      "hero_exp": 21000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 77,
+      "stat_delta": {
+        "hp": 7046.4,
+        "atk": 587.2,
+        "arm": 117.4,
+        "mr": 117.4
+      }
+    },
+    "78": {
+      "gold": 38297,
+      "hero_exp": 22000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 78,
+      "stat_delta": {
+        "hp": 7211.2,
+        "atk": 600.9,
+        "arm": 120.2,
+        "mr": 120.2
+      }
+    },
+    "79": {
+      "gold": 38834,
+      "hero_exp": 23000,
+      "essence": 0,
+      "rank": 5,
+      "display_level": 79,
+      "stat_delta": {
+        "hp": 7378.7,
+        "atk": 614.9,
+        "arm": 123,
+        "mr": 123
+      }
+    },
+    "80": {
+      "gold": 40265,
+      "hero_exp": 24000,
+      "essence": 500,
+      "rank": 5,
+      "display_level": 80,
+      "stat_delta": {
+        "hp": 7549.2,
+        "atk": 629.1,
+        "arm": 125.8,
+        "mr": 125.8
+      }
+    },
+    "81": {
+      "gold": 40772,
+      "hero_exp": 25000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 81,
+      "stat_delta": {
+        "hp": 7722.5,
+        "atk": 643.5,
+        "arm": 128.7,
+        "mr": 128.7
+      }
+    },
+    "82": {
+      "gold": 42194,
+      "hero_exp": 26000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 82,
+      "stat_delta": {
+        "hp": 7898.8,
+        "atk": 658.2,
+        "arm": 131.6,
+        "mr": 131.6
+      }
+    },
+    "83": {
+      "gold": 42667,
+      "hero_exp": 26000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 83,
+      "stat_delta": {
+        "hp": 8078.1,
+        "atk": 673.2,
+        "arm": 134.6,
+        "mr": 134.6
+      }
+    },
+    "84": {
+      "gold": 43117,
+      "hero_exp": 27000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 84,
+      "stat_delta": {
+        "hp": 8260.4,
+        "atk": 688.4,
+        "arm": 137.7,
+        "mr": 137.7
+      }
+    },
+    "85": {
+      "gold": 44510,
+      "hero_exp": 28000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 85,
+      "stat_delta": {
+        "hp": 8445.8,
+        "atk": 703.8,
+        "arm": 140.8,
+        "mr": 140.8
+      }
+    },
+    "86": {
+      "gold": 44919,
+      "hero_exp": 29000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 86,
+      "stat_delta": {
+        "hp": 8634.4,
+        "atk": 719.5,
+        "arm": 143.9,
+        "mr": 143.9
+      }
+    },
+    "87": {
+      "gold": 45300,
+      "hero_exp": 30000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 87,
+      "stat_delta": {
+        "hp": 8826.2,
+        "atk": 735.5,
+        "arm": 147.1,
+        "mr": 147.1
+      }
+    },
+    "88": {
+      "gold": 46644,
+      "hero_exp": 30000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 88,
+      "stat_delta": {
+        "hp": 9021.2,
+        "atk": 751.8,
+        "arm": 150.4,
+        "mr": 150.4
+      }
+    },
+    "89": {
+      "gold": 46969,
+      "hero_exp": 31000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 89,
+      "stat_delta": {
+        "hp": 9219.6,
+        "atk": 768.3,
+        "arm": 153.7,
+        "mr": 153.7
+      }
+    },
+    "90": {
+      "gold": 48263,
+      "hero_exp": 32000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 90,
+      "stat_delta": {
+        "hp": 9421.3,
+        "atk": 785.1,
+        "arm": 157,
+        "mr": 157
+      }
+    },
+    "91": {
+      "gold": 48514,
+      "hero_exp": 33000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 91,
+      "stat_delta": {
+        "hp": 9626.5,
+        "atk": 802.2,
+        "arm": 160.4,
+        "mr": 160.4
+      }
+    },
+    "92": {
+      "gold": 48716,
+      "hero_exp": 34000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 92,
+      "stat_delta": {
+        "hp": 9835.1,
+        "atk": 819.6,
+        "arm": 163.9,
+        "mr": 163.9
+      }
+    },
+    "93": {
+      "gold": 49880,
+      "hero_exp": 35000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 93,
+      "stat_delta": {
+        "hp": 10047.3,
+        "atk": 837.3,
+        "arm": 167.5,
+        "mr": 167.5
+      }
+    },
+    "94": {
+      "gold": 49963,
+      "hero_exp": 35000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 94,
+      "stat_delta": {
+        "hp": 10263.2,
+        "atk": 855.3,
+        "arm": 171.1,
+        "mr": 171.1
+      }
+    },
+    "95": {
+      "gold": 49970,
+      "hero_exp": 36000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 95,
+      "stat_delta": {
+        "hp": 10482.6,
+        "atk": 873.6,
+        "arm": 174.7,
+        "mr": 174.7
+      }
+    },
+    "96": {
+      "gold": 50906,
+      "hero_exp": 37000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 96,
+      "stat_delta": {
+        "hp": 10705.8,
+        "atk": 892.2,
+        "arm": 178.4,
+        "mr": 178.4
+      }
+    },
+    "97": {
+      "gold": 50716,
+      "hero_exp": 37000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 97,
+      "stat_delta": {
+        "hp": 10932.8,
+        "atk": 911.1,
+        "arm": 182.2,
+        "mr": 182.2
+      }
+    },
+    "98": {
+      "gold": 51410,
+      "hero_exp": 38000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 98,
+      "stat_delta": {
+        "hp": 11163.7,
+        "atk": 930.3,
+        "arm": 186.1,
+        "mr": 186.1
+      }
+    },
+    "99": {
+      "gold": 50943,
+      "hero_exp": 38000,
+      "essence": 0,
+      "rank": 6,
+      "display_level": 99,
+      "stat_delta": {
+        "hp": 11398.5,
+        "atk": 949.9,
+        "arm": 190,
+        "mr": 190
+      }
+    },
+    "100": {
+      "gold": 50304,
+      "hero_exp": 39000,
+      "essence": 1200,
+      "rank": 6,
+      "display_level": 100,
+      "stat_delta": {
+        "hp": 11637.2,
+        "atk": 969.8,
+        "arm": 194,
+        "mr": 194
+      }
+    },
+    "101": {
+      "gold": 53493,
+      "hero_exp": 41000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 101,
+      "stat_delta": {
+        "hp": 11880.1,
+        "atk": 990,
+        "arm": 198,
+        "mr": 198
+      }
+    },
+    "102": {
+      "gold": 55855,
+      "hero_exp": 44000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 102,
+      "stat_delta": {
+        "hp": 12127,
+        "atk": 1010.6,
+        "arm": 202.1,
+        "mr": 202.1
+      }
+    },
+    "103": {
+      "gold": 58387,
+      "hero_exp": 46000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 103,
+      "stat_delta": {
+        "hp": 12378.2,
+        "atk": 1031.5,
+        "arm": 206.3,
+        "mr": 206.3
+      }
+    },
+    "104": {
+      "gold": 61097,
+      "hero_exp": 49000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 104,
+      "stat_delta": {
+        "hp": 12633.6,
+        "atk": 1052.8,
+        "arm": 210.6,
+        "mr": 210.6
+      }
+    },
+    "105": {
+      "gold": 63996,
+      "hero_exp": 53000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 105,
+      "stat_delta": {
+        "hp": 12893.4,
+        "atk": 1074.5,
+        "arm": 214.9,
+        "mr": 214.9
+      }
+    },
+    "106": {
+      "gold": 67093,
+      "hero_exp": 56000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 106,
+      "stat_delta": {
+        "hp": 13157.6,
+        "atk": 1096.5,
+        "arm": 219.3,
+        "mr": 219.3
+      }
+    },
+    "107": {
+      "gold": 70396,
+      "hero_exp": 60000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 107,
+      "stat_delta": {
+        "hp": 13426.3,
+        "atk": 1118.9,
+        "arm": 223.8,
+        "mr": 223.8
+      }
+    },
+    "108": {
+      "gold": 75334,
+      "hero_exp": 64000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 108,
+      "stat_delta": {
+        "hp": 13699.5,
+        "atk": 1141.6,
+        "arm": 228.3,
+        "mr": 228.3
+      }
+    },
+    "109": {
+      "gold": 79144,
+      "hero_exp": 69000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 109,
+      "stat_delta": {
+        "hp": 13977.4,
+        "atk": 1164.8,
+        "arm": 233,
+        "mr": 233
+      }
+    },
+    "110": {
+      "gold": 83185,
+      "hero_exp": 74000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 110,
+      "stat_delta": {
+        "hp": 14260,
+        "atk": 1188.3,
+        "arm": 237.7,
+        "mr": 237.7
+      }
+    },
+    "111": {
+      "gold": 87463,
+      "hero_exp": 79000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 111,
+      "stat_delta": {
+        "hp": 14547.4,
+        "atk": 1212.3,
+        "arm": 242.5,
+        "mr": 242.5
+      }
+    },
+    "112": {
+      "gold": 91982,
+      "hero_exp": 84000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 112,
+      "stat_delta": {
+        "hp": 14839.8,
+        "atk": 1236.6,
+        "arm": 247.3,
+        "mr": 247.3
+      }
+    },
+    "113": {
+      "gold": 96742,
+      "hero_exp": 90000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 113,
+      "stat_delta": {
+        "hp": 15137,
+        "atk": 1261.4,
+        "arm": 252.3,
+        "mr": 252.3
+      }
+    },
+    "114": {
+      "gold": 101743,
+      "hero_exp": 97000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 114,
+      "stat_delta": {
+        "hp": 15439.4,
+        "atk": 1286.6,
+        "arm": 257.3,
+        "mr": 257.3
+      }
+    },
+    "115": {
+      "gold": 106984,
+      "hero_exp": 103000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 115,
+      "stat_delta": {
+        "hp": 15746.8,
+        "atk": 1312.2,
+        "arm": 262.4,
+        "mr": 262.4
+      }
+    },
+    "116": {
+      "gold": 112459,
+      "hero_exp": 111000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 116,
+      "stat_delta": {
+        "hp": 16059.5,
+        "atk": 1338.3,
+        "arm": 267.7,
+        "mr": 267.7
+      }
+    },
+    "117": {
+      "gold": 120392,
+      "hero_exp": 118000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 117,
+      "stat_delta": {
+        "hp": 16377.5,
+        "atk": 1364.8,
+        "arm": 273,
+        "mr": 273
+      }
+    },
+    "118": {
+      "gold": 126424,
+      "hero_exp": 127000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 118,
+      "stat_delta": {
+        "hp": 16701,
+        "atk": 1391.7,
+        "arm": 278.3,
+        "mr": 278.3
+      }
+    },
+    "119": {
+      "gold": 132666,
+      "hero_exp": 135000,
+      "essence": 0,
+      "rank": 7,
+      "display_level": 119,
+      "stat_delta": {
+        "hp": 17029.9,
+        "atk": 1419.2,
+        "arm": 283.8,
+        "mr": 283.8
+      }
+    },
+    "120": {
+      "gold": 139102,
+      "hero_exp": 144000,
+      "essence": 3000,
+      "rank": 7,
+      "display_level": 120,
+      "stat_delta": {
+        "hp": 17364.4,
+        "atk": 1447,
+        "arm": 289.4,
+        "mr": 289.4
+      }
+    },
+    "121": {
+      "gold": 145716,
+      "hero_exp": 154000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 121,
+      "stat_delta": {
+        "hp": 17704.6,
+        "atk": 1475.4,
+        "arm": 295.1,
+        "mr": 295.1
+      }
+    },
+    "122": {
+      "gold": 152487,
+      "hero_exp": 164000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 122,
+      "stat_delta": {
+        "hp": 18050.6,
+        "atk": 1504.2,
+        "arm": 300.8,
+        "mr": 300.8
+      }
+    },
+    "123": {
+      "gold": 159393,
+      "hero_exp": 174000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 123,
+      "stat_delta": {
+        "hp": 18402.4,
+        "atk": 1533.5,
+        "arm": 306.7,
+        "mr": 306.7
+      }
+    },
+    "124": {
+      "gold": 166412,
+      "hero_exp": 185000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 124,
+      "stat_delta": {
+        "hp": 18760.2,
+        "atk": 1563.4,
+        "arm": 312.7,
+        "mr": 312.7
+      }
+    },
+    "125": {
+      "gold": 173518,
+      "hero_exp": 196000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 125,
+      "stat_delta": {
+        "hp": 19124.2,
+        "atk": 1593.7,
+        "arm": 318.7,
+        "mr": 318.7
+      }
+    },
+    "126": {
+      "gold": 184031,
+      "hero_exp": 207000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 126,
+      "stat_delta": {
+        "hp": 19494.3,
+        "atk": 1624.5,
+        "arm": 324.9,
+        "mr": 324.9
+      }
+    },
+    "127": {
+      "gold": 191366,
+      "hero_exp": 219000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 127,
+      "stat_delta": {
+        "hp": 19870.7,
+        "atk": 1655.9,
+        "arm": 331.2,
+        "mr": 331.2
+      }
+    },
+    "128": {
+      "gold": 198709,
+      "hero_exp": 231000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 128,
+      "stat_delta": {
+        "hp": 20253.5,
+        "atk": 1687.8,
+        "arm": 337.6,
+        "mr": 337.6
+      }
+    },
+    "129": {
+      "gold": 206032,
+      "hero_exp": 244000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 129,
+      "stat_delta": {
+        "hp": 20642.8,
+        "atk": 1720.2,
+        "arm": 344,
+        "mr": 344
+      }
+    },
+    "130": {
+      "gold": 213311,
+      "hero_exp": 256000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 130,
+      "stat_delta": {
+        "hp": 21038.7,
+        "atk": 1753.2,
+        "arm": 350.6,
+        "mr": 350.6
+      }
+    },
+    "131": {
+      "gold": 220520,
+      "hero_exp": 269000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 131,
+      "stat_delta": {
+        "hp": 21441.4,
+        "atk": 1786.8,
+        "arm": 357.4,
+        "mr": 357.4
+      }
+    },
+    "132": {
+      "gold": 227635,
+      "hero_exp": 283000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 132,
+      "stat_delta": {
+        "hp": 21850.9,
+        "atk": 1820.9,
+        "arm": 364.2,
+        "mr": 364.2
+      }
+    },
+    "133": {
+      "gold": 234635,
+      "hero_exp": 296000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 133,
+      "stat_delta": {
+        "hp": 22267.4,
+        "atk": 1855.6,
+        "arm": 371.1,
+        "mr": 371.1
+      }
+    },
+    "134": {
+      "gold": 241500,
+      "hero_exp": 310000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 134,
+      "stat_delta": {
+        "hp": 22690.9,
+        "atk": 1890.9,
+        "arm": 378.2,
+        "mr": 378.2
+      }
+    },
+    "135": {
+      "gold": 252726,
+      "hero_exp": 323000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 135,
+      "stat_delta": {
+        "hp": 23121.6,
+        "atk": 1926.8,
+        "arm": 385.4,
+        "mr": 385.4
+      }
+    },
+    "136": {
+      "gold": 259392,
+      "hero_exp": 337000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 136,
+      "stat_delta": {
+        "hp": 23559.7,
+        "atk": 1963.3,
+        "arm": 392.7,
+        "mr": 392.7
+      }
+    },
+    "137": {
+      "gold": 265875,
+      "hero_exp": 352000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 137,
+      "stat_delta": {
+        "hp": 24005.2,
+        "atk": 2000.4,
+        "arm": 400.1,
+        "mr": 400.1
+      }
+    },
+    "138": {
+      "gold": 272167,
+      "hero_exp": 366000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 138,
+      "stat_delta": {
+        "hp": 24458.3,
+        "atk": 2038.2,
+        "arm": 407.6,
+        "mr": 407.6
+      }
+    },
+    "139": {
+      "gold": 278258,
+      "hero_exp": 380000,
+      "essence": 0,
+      "rank": 8,
+      "display_level": 139,
+      "stat_delta": {
+        "hp": 24919.1,
+        "atk": 2076.6,
+        "arm": 415.3,
+        "mr": 415.3
+      }
+    },
+    "140": {
+      "gold": 284145,
+      "hero_exp": 395000,
+      "essence": 6000,
+      "rank": 8,
+      "display_level": 140,
+      "stat_delta": {
+        "hp": 25387.7,
+        "atk": 2115.6,
+        "arm": 423.1,
+        "mr": 423.1
+      }
+    },
+    "141": {
+      "gold": 289823,
+      "hero_exp": 409000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 141,
+      "stat_delta": {
+        "hp": 25864.3,
+        "atk": 2155.4,
+        "arm": 431.1,
+        "mr": 431.1
+      }
+    },
+    "142": {
+      "gold": 295292,
+      "hero_exp": 423000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 142,
+      "stat_delta": {
+        "hp": 26349,
+        "atk": 2195.8,
+        "arm": 439.2,
+        "mr": 439.2
+      }
+    },
+    "143": {
+      "gold": 300553,
+      "hero_exp": 437000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 143,
+      "stat_delta": {
+        "hp": 26842,
+        "atk": 2236.8,
+        "arm": 447.4,
+        "mr": 447.4
+      }
+    },
+    "144": {
+      "gold": 311065,
+      "hero_exp": 451000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 144,
+      "stat_delta": {
+        "hp": 27343.3,
+        "atk": 2278.6,
+        "arm": 455.7,
+        "mr": 455.7
+      }
+    },
+    "145": {
+      "gold": 316005,
+      "hero_exp": 465000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 145,
+      "stat_delta": {
+        "hp": 27853.1,
+        "atk": 2321.1,
+        "arm": 464.2,
+        "mr": 464.2
+      }
+    },
+    "146": {
+      "gold": 320744,
+      "hero_exp": 479000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 146,
+      "stat_delta": {
+        "hp": 28371.6,
+        "atk": 2364.3,
+        "arm": 472.9,
+        "mr": 472.9
+      }
+    },
+    "147": {
+      "gold": 325288,
+      "hero_exp": 493000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 147,
+      "stat_delta": {
+        "hp": 28898.9,
+        "atk": 2408.2,
+        "arm": 481.6,
+        "mr": 481.6
+      }
+    },
+    "148": {
+      "gold": 329646,
+      "hero_exp": 507000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 148,
+      "stat_delta": {
+        "hp": 29435.2,
+        "atk": 2452.9,
+        "arm": 490.6,
+        "mr": 490.6
+      }
+    },
+    "149": {
+      "gold": 333823,
+      "hero_exp": 521000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 149,
+      "stat_delta": {
+        "hp": 29980.6,
+        "atk": 2498.4,
+        "arm": 499.7,
+        "mr": 499.7
+      }
+    },
+    "150": {
+      "gold": 337828,
+      "hero_exp": 535000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 150,
+      "stat_delta": {
+        "hp": 30535.3,
+        "atk": 2544.6,
+        "arm": 508.9,
+        "mr": 508.9
+      }
+    },
+    "151": {
+      "gold": 341670,
+      "hero_exp": 549000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 151,
+      "stat_delta": {
+        "hp": 31099.4,
+        "atk": 2591.6,
+        "arm": 518.3,
+        "mr": 518.3
+      }
+    },
+    "152": {
+      "gold": 345356,
+      "hero_exp": 563000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 152,
+      "stat_delta": {
+        "hp": 31673.1,
+        "atk": 2639.4,
+        "arm": 527.9,
+        "mr": 527.9
+      }
+    },
+    "153": {
+      "gold": 348896,
+      "hero_exp": 577000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 153,
+      "stat_delta": {
+        "hp": 32256.5,
+        "atk": 2688,
+        "arm": 537.6,
+        "mr": 537.6
+      }
+    },
+    "154": {
+      "gold": 352299,
+      "hero_exp": 592000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 154,
+      "stat_delta": {
+        "hp": 32849.9,
+        "atk": 2737.5,
+        "arm": 547.5,
+        "mr": 547.5
+      }
+    },
+    "155": {
+      "gold": 361810,
+      "hero_exp": 606000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 155,
+      "stat_delta": {
+        "hp": 33453.3,
+        "atk": 2787.8,
+        "arm": 557.6,
+        "mr": 557.6
+      }
+    },
+    "156": {
+      "gold": 365017,
+      "hero_exp": 620000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 156,
+      "stat_delta": {
+        "hp": 34067,
+        "atk": 2838.9,
+        "arm": 567.8,
+        "mr": 567.8
+      }
+    },
+    "157": {
+      "gold": 368109,
+      "hero_exp": 635000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 157,
+      "stat_delta": {
+        "hp": 34691.2,
+        "atk": 2890.9,
+        "arm": 578.2,
+        "mr": 578.2
+      }
+    },
+    "158": {
+      "gold": 371094,
+      "hero_exp": 650000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 158,
+      "stat_delta": {
+        "hp": 35325.9,
+        "atk": 2943.8,
+        "arm": 588.8,
+        "mr": 588.8
+      }
+    },
+    "159": {
+      "gold": 373980,
+      "hero_exp": 664000,
+      "essence": 0,
+      "rank": 9,
+      "display_level": 159,
+      "stat_delta": {
+        "hp": 35971.4,
+        "atk": 2997.6,
+        "arm": 599.5,
+        "mr": 599.5
+      }
+    },
+    "160": {
+      "gold": 376773,
+      "hero_exp": 679000,
+      "essence": 12000,
+      "rank": 9,
+      "display_level": 160,
+      "stat_delta": {
+        "hp": 36628,
+        "atk": 3052.3,
+        "arm": 610.5,
+        "mr": 610.5
+      }
+    },
+    "161": {
+      "gold": 379481,
+      "hero_exp": 694000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 161,
+      "stat_delta": {
+        "hp": 37295.6,
+        "atk": 3108,
+        "arm": 621.6,
+        "mr": 621.6
+      }
+    },
+    "162": {
+      "gold": 382111,
+      "hero_exp": 709000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 162,
+      "stat_delta": {
+        "hp": 37974.7,
+        "atk": 3164.6,
+        "arm": 632.9,
+        "mr": 632.9
+      }
+    },
+    "163": {
+      "gold": 384667,
+      "hero_exp": 723000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 163,
+      "stat_delta": {
+        "hp": 38665.2,
+        "atk": 3222.1,
+        "arm": 644.4,
+        "mr": 644.4
+      }
+    },
+    "164": {
+      "gold": 387158,
+      "hero_exp": 738000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 164,
+      "stat_delta": {
+        "hp": 39367.5,
+        "atk": 3280.6,
+        "arm": 656.1,
+        "mr": 656.1
+      }
+    },
+    "165": {
+      "gold": 396304,
+      "hero_exp": 752000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 165,
+      "stat_delta": {
+        "hp": 40081.8,
+        "atk": 3340.1,
+        "arm": 668,
+        "mr": 668
+      }
+    },
+    "166": {
+      "gold": 398718,
+      "hero_exp": 767000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 166,
+      "stat_delta": {
+        "hp": 40808.2,
+        "atk": 3400.7,
+        "arm": 680.1,
+        "mr": 680.1
+      }
+    },
+    "167": {
+      "gold": 401079,
+      "hero_exp": 782000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 167,
+      "stat_delta": {
+        "hp": 41546.9,
+        "atk": 3462.2,
+        "arm": 692.4,
+        "mr": 692.4
+      }
+    },
+    "168": {
+      "gold": 403394,
+      "hero_exp": 797000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 168,
+      "stat_delta": {
+        "hp": 42298.2,
+        "atk": 3524.9,
+        "arm": 705,
+        "mr": 705
+      }
+    },
+    "169": {
+      "gold": 405665,
+      "hero_exp": 813000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 169,
+      "stat_delta": {
+        "hp": 43062.3,
+        "atk": 3588.5,
+        "arm": 717.7,
+        "mr": 717.7
+      }
+    },
+    "170": {
+      "gold": 407897,
+      "hero_exp": 828000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 170,
+      "stat_delta": {
+        "hp": 43839.3,
+        "atk": 3653.3,
+        "arm": 730.7,
+        "mr": 730.7
+      }
+    },
+    "171": {
+      "gold": 410094,
+      "hero_exp": 844000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 171,
+      "stat_delta": {
+        "hp": 44629.6,
+        "atk": 3719.1,
+        "arm": 743.8,
+        "mr": 743.8
+      }
+    },
+    "172": {
+      "gold": 412258,
+      "hero_exp": 860000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 172,
+      "stat_delta": {
+        "hp": 45433.3,
+        "atk": 3786.1,
+        "arm": 757.2,
+        "mr": 757.2
+      }
+    },
+    "173": {
+      "gold": 414394,
+      "hero_exp": 876000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 173,
+      "stat_delta": {
+        "hp": 46250.7,
+        "atk": 3854.2,
+        "arm": 770.8,
+        "mr": 770.8
+      }
+    },
+    "174": {
+      "gold": 416504,
+      "hero_exp": 892000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 174,
+      "stat_delta": {
+        "hp": 47081.9,
+        "atk": 3923.5,
+        "arm": 784.7,
+        "mr": 784.7
+      }
+    },
+    "175": {
+      "gold": 418590,
+      "hero_exp": 909000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 175,
+      "stat_delta": {
+        "hp": 47927.3,
+        "atk": 3993.9,
+        "arm": 798.8,
+        "mr": 798.8
+      }
+    },
+    "176": {
+      "gold": 427785,
+      "hero_exp": 926000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 176,
+      "stat_delta": {
+        "hp": 48787.1,
+        "atk": 4065.6,
+        "arm": 813.1,
+        "mr": 813.1
+      }
+    },
+    "177": {
+      "gold": 429867,
+      "hero_exp": 943000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 177,
+      "stat_delta": {
+        "hp": 49661.5,
+        "atk": 4138.5,
+        "arm": 827.7,
+        "mr": 827.7
+      }
+    },
+    "178": {
+      "gold": 431933,
+      "hero_exp": 960000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 178,
+      "stat_delta": {
+        "hp": 50550.7,
+        "atk": 4212.6,
+        "arm": 842.5,
+        "mr": 842.5
+      }
+    },
+    "179": {
+      "gold": 433984,
+      "hero_exp": 978000,
+      "essence": 0,
+      "rank": 10,
+      "display_level": 179,
+      "stat_delta": {
+        "hp": 51455.1,
+        "atk": 4287.9,
+        "arm": 857.6,
+        "mr": 857.6
+      }
+    },
+    "180": {
+      "gold": 436022,
+      "hero_exp": 995000,
+      "essence": 25000,
+      "rank": 10,
+      "display_level": 180,
+      "stat_delta": {
+        "hp": 52374.8,
+        "atk": 4364.6,
+        "arm": 872.9,
+        "mr": 872.9
+      }
+    },
+    "181": {
+      "gold": 438049,
+      "hero_exp": 1014000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 181,
+      "stat_delta": {
+        "hp": 53310.2,
+        "atk": 4442.5,
+        "arm": 888.5,
+        "mr": 888.5
+      }
+    },
+    "182": {
+      "gold": 440067,
+      "hero_exp": 1031000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 182,
+      "stat_delta": {
+        "hp": 54261.5,
+        "atk": 4521.8,
+        "arm": 904.4,
+        "mr": 904.4
+      }
+    },
+    "183": {
+      "gold": 442077,
+      "hero_exp": 1048000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 183,
+      "stat_delta": {
+        "hp": 55228.9,
+        "atk": 4602.4,
+        "arm": 920.5,
+        "mr": 920.5
+      }
+    },
+    "184": {
+      "gold": 444081,
+      "hero_exp": 1066000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 184,
+      "stat_delta": {
+        "hp": 56212.8,
+        "atk": 4684.4,
+        "arm": 936.9,
+        "mr": 936.9
+      }
+    },
+    "185": {
+      "gold": 446079,
+      "hero_exp": 1084000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 185,
+      "stat_delta": {
+        "hp": 57213.4,
+        "atk": 4767.8,
+        "arm": 953.6,
+        "mr": 953.6
+      }
+    },
+    "186": {
+      "gold": 448073,
+      "hero_exp": 1102000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 186,
+      "stat_delta": {
+        "hp": 58231.1,
+        "atk": 4852.6,
+        "arm": 970.5,
+        "mr": 970.5
+      }
+    },
+    "187": {
+      "gold": 457565,
+      "hero_exp": 1121000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 187,
+      "stat_delta": {
+        "hp": 59266,
+        "atk": 4938.8,
+        "arm": 987.8,
+        "mr": 987.8
+      }
+    },
+    "188": {
+      "gold": 459586,
+      "hero_exp": 1140000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 188,
+      "stat_delta": {
+        "hp": 60318.5,
+        "atk": 5026.5,
+        "arm": 1005.3,
+        "mr": 1005.3
+      }
+    },
+    "189": {
+      "gold": 461606,
+      "hero_exp": 1159000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 189,
+      "stat_delta": {
+        "hp": 61388.9,
+        "atk": 5115.7,
+        "arm": 1023.1,
+        "mr": 1023.1
+      }
+    },
+    "190": {
+      "gold": 463626,
+      "hero_exp": 1178000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 190,
+      "stat_delta": {
+        "hp": 62477.5,
+        "atk": 5206.5,
+        "arm": 1041.3,
+        "mr": 1041.3
+      }
+    },
+    "191": {
+      "gold": 465646,
+      "hero_exp": 1198000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 191,
+      "stat_delta": {
+        "hp": 63584.6,
+        "atk": 5298.7,
+        "arm": 1059.7,
+        "mr": 1059.7
+      }
+    },
+    "192": {
+      "gold": 467667,
+      "hero_exp": 1218000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 192,
+      "stat_delta": {
+        "hp": 64710.6,
+        "atk": 5392.5,
+        "arm": 1078.5,
+        "mr": 1078.5
+      }
+    },
+    "193": {
+      "gold": 469689,
+      "hero_exp": 1239000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 193,
+      "stat_delta": {
+        "hp": 65855.7,
+        "atk": 5488,
+        "arm": 1097.6,
+        "mr": 1097.6
+      }
+    },
+    "194": {
+      "gold": 471714,
+      "hero_exp": 1259000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 194,
+      "stat_delta": {
+        "hp": 67020.2,
+        "atk": 5585,
+        "arm": 1117,
+        "mr": 1117
+      }
+    },
+    "195": {
+      "gold": 473741,
+      "hero_exp": 1280000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 195,
+      "stat_delta": {
+        "hp": 68204.6,
+        "atk": 5683.7,
+        "arm": 1136.7,
+        "mr": 1136.7
+      }
+    },
+    "196": {
+      "gold": 475771,
+      "hero_exp": 1302000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 196,
+      "stat_delta": {
+        "hp": 69409,
+        "atk": 5784.1,
+        "arm": 1156.8,
+        "mr": 1156.8
+      }
+    },
+    "197": {
+      "gold": 477805,
+      "hero_exp": 1323000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 197,
+      "stat_delta": {
+        "hp": 70634,
+        "atk": 5886.2,
+        "arm": 1177.2,
+        "mr": 1177.2
+      }
+    },
+    "198": {
+      "gold": 479843,
+      "hero_exp": 1345000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 198,
+      "stat_delta": {
+        "hp": 71879.8,
+        "atk": 5990,
+        "arm": 1198,
+        "mr": 1198
+      }
+    },
+    "199": {
+      "gold": 489786,
+      "hero_exp": 1368000,
+      "essence": 0,
+      "rank": 11,
+      "display_level": 199,
+      "stat_delta": {
+        "hp": 73146.7,
+        "atk": 6095.6,
+        "arm": 1219.1,
+        "mr": 1219.1
+      }
+    },
+    "200": {
+      "gold": 491867,
+      "hero_exp": 1391000,
+      "essence": 30000,
+      "rank": 11,
+      "display_level": 200,
+      "stat_delta": {
+        "hp": 74435.2,
+        "atk": 6202.9,
+        "arm": 1240.6,
+        "mr": 1240.6
+      }
+    },
+    "201": {
+      "gold": 493953,
+      "hero_exp": 1414000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 201,
+      "stat_delta": {
+        "hp": 75745.6,
+        "atk": 6312.1,
+        "arm": 1262.4,
+        "mr": 1262.4
+      }
+    },
+    "202": {
+      "gold": 496045,
+      "hero_exp": 1436000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 202,
+      "stat_delta": {
+        "hp": 77078.3,
+        "atk": 6423.2,
+        "arm": 1284.6,
+        "mr": 1284.6
+      }
+    },
+    "203": {
+      "gold": 498142,
+      "hero_exp": 1458000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 203,
+      "stat_delta": {
+        "hp": 78433.6,
+        "atk": 6536.1,
+        "arm": 1307.2,
+        "mr": 1307.2
+      }
+    },
+    "204": {
+      "gold": 500246,
+      "hero_exp": 1481000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 204,
+      "stat_delta": {
+        "hp": 79812,
+        "atk": 6651,
+        "arm": 1330.2,
+        "mr": 1330.2
+      }
+    },
+    "205": {
+      "gold": 502356,
+      "hero_exp": 1504000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 205,
+      "stat_delta": {
+        "hp": 81213.8,
+        "atk": 6767.8,
+        "arm": 1353.6,
+        "mr": 1353.6
+      }
+    },
+    "206": {
+      "gold": 504473,
+      "hero_exp": 1528000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 206,
+      "stat_delta": {
+        "hp": 82639.4,
+        "atk": 6886.6,
+        "arm": 1377.3,
+        "mr": 1377.3
+      }
+    },
+    "207": {
+      "gold": 506596,
+      "hero_exp": 1551000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 207,
+      "stat_delta": {
+        "hp": 84089.3,
+        "atk": 7007.4,
+        "arm": 1401.5,
+        "mr": 1401.5
+      }
+    },
+    "208": {
+      "gold": 508727,
+      "hero_exp": 1575000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 208,
+      "stat_delta": {
+        "hp": 85563.8,
+        "atk": 7130.3,
+        "arm": 1426.1,
+        "mr": 1426.1
+      }
+    },
+    "209": {
+      "gold": 510865,
+      "hero_exp": 1600000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 209,
+      "stat_delta": {
+        "hp": 87063.4,
+        "atk": 7255.3,
+        "arm": 1451.1,
+        "mr": 1451.1
+      }
+    },
+    "210": {
+      "gold": 513010,
+      "hero_exp": 1625000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 210,
+      "stat_delta": {
+        "hp": 88588.5,
+        "atk": 7382.4,
+        "arm": 1476.5,
+        "mr": 1476.5
+      }
+    },
+    "211": {
+      "gold": 523472,
+      "hero_exp": 1650000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 211,
+      "stat_delta": {
+        "hp": 90139.5,
+        "atk": 7511.6,
+        "arm": 1502.3,
+        "mr": 1502.3
+      }
+    },
+    "212": {
+      "gold": 525667,
+      "hero_exp": 1676000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 212,
+      "stat_delta": {
+        "hp": 91716.8,
+        "atk": 7643.1,
+        "arm": 1528.6,
+        "mr": 1528.6
+      }
+    },
+    "213": {
+      "gold": 527870,
+      "hero_exp": 1702000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 213,
+      "stat_delta": {
+        "hp": 93321,
+        "atk": 7776.8,
+        "arm": 1555.4,
+        "mr": 1555.4
+      }
+    },
+    "214": {
+      "gold": 530082,
+      "hero_exp": 1728000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 214,
+      "stat_delta": {
+        "hp": 94952.5,
+        "atk": 7912.7,
+        "arm": 1582.5,
+        "mr": 1582.5
+      }
+    },
+    "215": {
+      "gold": 532301,
+      "hero_exp": 1755000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 215,
+      "stat_delta": {
+        "hp": 96611.7,
+        "atk": 8051,
+        "arm": 1610.2,
+        "mr": 1610.2
+      }
+    },
+    "216": {
+      "gold": 534529,
+      "hero_exp": 1783000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 216,
+      "stat_delta": {
+        "hp": 98299.1,
+        "atk": 8191.6,
+        "arm": 1638.3,
+        "mr": 1638.3
+      }
+    },
+    "217": {
+      "gold": 536766,
+      "hero_exp": 1810000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 217,
+      "stat_delta": {
+        "hp": 100015.2,
+        "atk": 8334.6,
+        "arm": 1666.9,
+        "mr": 1666.9
+      }
+    },
+    "218": {
+      "gold": 539010,
+      "hero_exp": 1839000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 218,
+      "stat_delta": {
+        "hp": 101760.4,
+        "atk": 8480,
+        "arm": 1696,
+        "mr": 1696
+      }
+    },
+    "219": {
+      "gold": 541264,
+      "hero_exp": 1867000,
+      "essence": 0,
+      "rank": 12,
+      "display_level": 219,
+      "stat_delta": {
+        "hp": 103535.4,
+        "atk": 8627.9,
+        "arm": 1725.6,
+        "mr": 1725.6
+      }
+    },
+    "220": {
+      "gold": 543526,
+      "hero_exp": 1896000,
+      "essence": 40000,
+      "rank": 12,
+      "display_level": 220,
+      "stat_delta": {
+        "hp": 105340.5,
+        "atk": 8778.4,
+        "arm": 1755.7,
+        "mr": 1755.7
+      }
+    },
+    "221": {
+      "gold": 545798,
+      "hero_exp": 1926000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 221,
+      "stat_delta": {
+        "hp": 107176.2,
+        "atk": 8931.4,
+        "arm": 1786.3,
+        "mr": 1786.3
+      }
+    },
+    "222": {
+      "gold": 548078,
+      "hero_exp": 1956000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 222,
+      "stat_delta": {
+        "hp": 109043.2,
+        "atk": 9086.9,
+        "arm": 1817.4,
+        "mr": 1817.4
+      }
+    },
+    "223": {
+      "gold": 550367,
+      "hero_exp": 1986000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 223,
+      "stat_delta": {
+        "hp": 110942,
+        "atk": 9245.2,
+        "arm": 1849,
+        "mr": 1849
+      }
+    },
+    "224": {
+      "gold": 561438,
+      "hero_exp": 2017000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 224,
+      "stat_delta": {
+        "hp": 112873,
+        "atk": 9406.1,
+        "arm": 1881.2,
+        "mr": 1881.2
+      }
+    },
+    "225": {
+      "gold": 563782,
+      "hero_exp": 2048000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 225,
+      "stat_delta": {
+        "hp": 114836.8,
+        "atk": 9569.7,
+        "arm": 1913.9,
+        "mr": 1913.9
+      }
+    },
+    "226": {
+      "gold": 566135,
+      "hero_exp": 2080000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 226,
+      "stat_delta": {
+        "hp": 116834.1,
+        "atk": 9736.2,
+        "arm": 1947.2,
+        "mr": 1947.2
+      }
+    },
+    "227": {
+      "gold": 568498,
+      "hero_exp": 2112000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 227,
+      "stat_delta": {
+        "hp": 118865.2,
+        "atk": 9905.4,
+        "arm": 1981.1,
+        "mr": 1981.1
+      }
+    },
+    "228": {
+      "gold": 570871,
+      "hero_exp": 2145000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 228,
+      "stat_delta": {
+        "hp": 120930.9,
+        "atk": 10077.6,
+        "arm": 2015.5,
+        "mr": 2015.5
+      }
+    },
+    "229": {
+      "gold": 573253,
+      "hero_exp": 2179000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 229,
+      "stat_delta": {
+        "hp": 123031.8,
+        "atk": 10252.6,
+        "arm": 2050.5,
+        "mr": 2050.5
+      }
+    },
+    "230": {
+      "gold": 575645,
+      "hero_exp": 2212000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 230,
+      "stat_delta": {
+        "hp": 125168.3,
+        "atk": 10430.7,
+        "arm": 2086.1,
+        "mr": 2086.1
+      }
+    },
+    "231": {
+      "gold": 578046,
+      "hero_exp": 2247000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 231,
+      "stat_delta": {
+        "hp": 127341.2,
+        "atk": 10611.8,
+        "arm": 2122.4,
+        "mr": 2122.4
+      }
+    },
+    "232": {
+      "gold": 580458,
+      "hero_exp": 2282000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 232,
+      "stat_delta": {
+        "hp": 129551,
+        "atk": 10795.9,
+        "arm": 2159.2,
+        "mr": 2159.2
+      }
+    },
+    "233": {
+      "gold": 582879,
+      "hero_exp": 2317000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 233,
+      "stat_delta": {
+        "hp": 131798.3,
+        "atk": 10983.2,
+        "arm": 2196.6,
+        "mr": 2196.6
+      }
+    },
+    "234": {
+      "gold": 585310,
+      "hero_exp": 2353000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 234,
+      "stat_delta": {
+        "hp": 134083.9,
+        "atk": 11173.7,
+        "arm": 2234.7,
+        "mr": 2234.7
+      }
+    },
+    "235": {
+      "gold": 587751,
+      "hero_exp": 2390000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 235,
+      "stat_delta": {
+        "hp": 136408.3,
+        "atk": 11367.4,
+        "arm": 2273.5,
+        "mr": 2273.5
+      }
+    },
+    "236": {
+      "gold": 590202,
+      "hero_exp": 2427000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 236,
+      "stat_delta": {
+        "hp": 138772.3,
+        "atk": 11564.4,
+        "arm": 2312.9,
+        "mr": 2312.9
+      }
+    },
+    "237": {
+      "gold": 601923,
+      "hero_exp": 2465000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 237,
+      "stat_delta": {
+        "hp": 141176.4,
+        "atk": 11764.7,
+        "arm": 2352.9,
+        "mr": 2352.9
+      }
+    },
+    "238": {
+      "gold": 604433,
+      "hero_exp": 2503000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 238,
+      "stat_delta": {
+        "hp": 143621.4,
+        "atk": 11968.5,
+        "arm": 2393.7,
+        "mr": 2393.7
+      }
+    },
+    "239": {
+      "gold": 606953,
+      "hero_exp": 2542000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 239,
+      "stat_delta": {
+        "hp": 146108,
+        "atk": 12175.7,
+        "arm": 2435.1,
+        "mr": 2435.1
+      }
+    },
+    "240": {
+      "gold": 304742,
+      "hero_exp": 1290000,
+      "essence": 0,
+      "rank": 13,
+      "display_level": 240,
+      "stat_delta": {
+        "hp": 148636.8,
+        "atk": 12386.4,
+        "arm": 2477.3,
+        "mr": 2477.3
+      }
+    }
+  },
+  "evidence": {
+    "all_levels": "decrypted_official_client_UnitLevel.jsone",
+    "level_10": "decrypted_client_config_and_captured_official_response",
+    "source_file": "assets/srcmodule/UnitLevel.jsone"
+  }
+}

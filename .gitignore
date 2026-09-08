@@ -1,0 +1,47 @@
+# This repository manages the local mock and project-level documentation.
+# AFK_study is an existing, independent Git repository.
+/AFK_study/
+
+# Reverse-engineering inputs and generated captures are intentionally local.
+/artifacts/
+/androguard.db
+/.playwright-cli/
+/.agents/
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/build/
+**/__pycache__/
+**/*.py[cod]
+
+# Runtime output, captures, and local state
+/local-platform-mock/runtime/
+/local-platform-mock/logs/
+/local-platform-mock/artifacts/
+/local-platform-mock/configs/
+/local-platform-mock/data/parkway/
+/local-platform-mock/data/official/client/
+/local-platform-mock/data/official/client-full/
+/local-platform-mock/data/official/client-scripts/
+*.log
+*.jsonl
+*.pid
+*.sqlite
+*.sqlite3
+
+# Locally generated certificates and private keys
+*.key
+*.pem
+*.p12
+*.crt
+*.cer
+*.jks
+*.keystore
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+local-platform-mock/runtime/private-server-secrets.json

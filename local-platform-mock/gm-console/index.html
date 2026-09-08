@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AFK 私服管理台</title><link rel="stylesheet" href="/gm-ui/styles.css"></head>
+<body><aside><h1>AFK Control</h1><p class="muted">本地私服管理台</p><nav>
+<button data-view="dashboard" class="active">运行概览</button><button data-view="players">玩家管理</button><button data-view="systems">系统与协议</button><button data-view="liveops">活动排期</button><button data-view="payments">即时充值</button><button data-view="audit">审计日志</button>
+</nav><footer><span id="healthDot"></span><span id="healthText">正在连接</span></footer></aside>
+<main><header><div><h2 id="viewTitle">运行概览</h2><p id="subtitle">客户端 1.182.03.301371</p></div><button id="logout" class="ghost">退出</button></header>
+<section id="login" class="login card"><h2>管理员登录</h2><label>账号<input id="username" value="admin" autocomplete="username"></label><label>密码<input id="password" type="password" autocomplete="current-password"></label><button id="loginButton">登录</button><p id="loginError" class="error"></p></section>
+<section id="content" hidden><div id="dashboard" class="view"><div id="metrics" class="cards"></div><div class="card"><h3>服务证据</h3><pre id="evidence"></pre></div></div>
+<div id="players" class="view" hidden><div class="toolbar"><input id="playerSearch" placeholder="搜索 UID、昵称、账号"><button id="refreshPlayers">刷新</button></div><div class="card table-wrap"><table><thead><tr><th>ID</th><th>玩家</th><th>等级</th><th>钻石</th><th>状态</th><th>操作</th></tr></thead><tbody id="playerRows"></tbody></table></div><div class="card"><h3>执行操作</h3><div class="form-row"><select id="gmAction"><option value="grant_asset">发放资产</option><option value="set_stage">设置关卡</option><option value="send_mail">发送邮件</option><option value="ban">封禁</option><option value="unban">解封</option><option value="run_resets">执行重置</option><option value="protocol_gm">官方 GM 协议操作</option></select><input id="gmPayload" value='{"item_id":"diamond","amount":1000}'><button id="runGmAction">执行</button></div><p class="muted">协议操作示例：{"operation":"req_set_tower","args":{"floor":100}}</p><pre id="gmResult"></pre></div></div>
+<div id="systems" class="view" hidden><div class="card"><h3>184 个官方协议模块</h3><input id="systemSearch" placeholder="筛选模块"><div id="moduleGrid" class="module-grid"></div></div></div>
+<div id="liveops" class="view" hidden><div class="card"><h3>活动实例</h3><div id="liveopsList"></div></div></div>
+<div id="payments" class="view" hidden><div class="card"><h3>即时充值记录</h3><p class="muted">客户端点击礼包后直接发放配置资源；不打开收银台、不收取真实款项，也不生成官方票据。</p><div id="orders"></div></div></div>
+<div id="audit" class="view" hidden><div class="card"><h3>最近 200 条 GM 审计</h3><pre id="auditLog"></pre></div></div></section></main>
+<script src="/gm-ui/app.js"></script></body></html>
